@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:onClick="insert"
+           android:text="无限插入"/>
+
+       <Button
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:onClick="query"
+           android:text="无限查询"/>
+
+       <Button
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:onClick="delete"
+           android:text="删除备份库的数据"/>
+       <Button
+           android:text="拷贝来钱快数据库到平板"
+           android:layout_weight="1"
+           android:onClick="tablet"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"/>
+
+   </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <Button
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:onClick="clear"
+          android:text="清空list"/>
+      <Button
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:onClick="sort"
+          android:text="排序list"/>
+      <Button
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:onClick="copy"
+          android:text="备份数据库"/>
+      <Button
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:onClick="copy"
+          android:text="打开备份数据库"/>
+  </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

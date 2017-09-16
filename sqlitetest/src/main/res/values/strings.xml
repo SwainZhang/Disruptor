@@ -1,0 +1,1844 @@
+<resources>
+    <string name="app_name">SqliteTest</string>
+        <!-- start, lqy, 20120826, for DailyIncomeSumDisplay.java -->
+        <string name="notification_title">来钱快·每日收支报告</string>
+        <string name="notification_income">您今日收入为</string>
+        <string name="notification_cost">，成本为</string>
+        <string name="notification_margin">，利润为</string>
+        <string name="notification_expense">，采购支出为</string>
+        <string name="notification_noSelloutRecord">您今日卖出交易记录为0条</string>
+        <string name="notification_noSellinRecord">，采购交易记录为0条。</string>
+
+        <string name="notification_login_please">您未登录，前往登录页面中...</string>
+
+        <string name="daily_title">每日报表</string>
+        <string name="daily_loadingIncomeData">正在读取数据...</string>
+        <string name="daily_todayHighlight">亮点</string>
+        <string name="daily_noInfo">暂无信息</string>
+        <string name="daily_flat">今日收支和昨日持平</string>
+        <string name="daily_tips">页面说明</string>
+        <string name="daily_meaning">* 绿色代表下跌\r\n* 红色代表上涨\n\n本报表仅使用手机中的临时数据，若需要完整报表，请进入来钱快程序或登录网页版\nweb.91laiqian.com</string>
+        <string name="daily_errorData">--&#160;&#160;&#160;</string>
+        <string name="daily_dailyIncomeSum">日收支统计</string>
+        <string name="daily_today">今日</string>
+        <string name="daily_yesterday">昨日</string>
+        <string name="daily_weeklyIncomeSum">周收支统计</string>
+        <string name="daily_sameTimeLastWeek">上周同期</string>
+        <string name="daily_thisWeek">本周</string>
+        <string name="daily_monthlyIncomeSum">月收支统计</string>
+        <string name="daily_sameTimeLastMonth">上月同期</string>
+        <string name="daily_thisMonth">本月</string>
+        <string name="daily_increase">涨跌幅</string>
+        <string name="highlightIncrease_0">恭喜老板，今天收入上涨了</string>
+        <string name="highlightIncrease_1">很遗憾...相比比昨天成本了上涨了</string>
+        <string name="highlightIncrease_2">恭喜老板，今天利润上涨了</string>
+        <string name="highlightIncrease_3">您今天采购支出上涨了</string>
+        <string name="highlightIncrease_4">恭喜老板，本周收入上涨了</string>
+        <string name="highlightIncrease_5">很遗憾...相比上周成本了上涨了</string>
+        <string name="highlightIncrease_6">恭喜老板，本周利润上涨了</string>
+        <string name="highlightIncrease_7">本周采购支出上涨了</string>
+        <string name="highlightIncrease_8">恭喜老板，本月收入上涨了</string>
+        <string name="highlightIncrease_9">很遗憾...相比上月成本了上涨了</string>
+        <string name="highlightIncrease_10">恭喜老板，本月利润上涨了</string>
+        <string name="highlightIncrease_11">本月采购支出上涨了</string>
+
+        <string name="highlightDrop_0">很遗憾...今天收入下降了</string>
+        <string name="highlightDrop_1">恭喜老板，相比昨天成本了下降了</string>
+        <string name="highlightDrop_2">很遗憾...今天利润下降了</string>
+        <string name="highlightDrop_3">您今天采购支出下降了</string>
+        <string name="highlightDrop_4">很遗憾...本周收入下降了</string>
+        <string name="highlightDrop_5">恭喜老板，相比上周成本了下降了</string>
+        <string name="highlightDrop_6">很遗憾...本周利润下降了</string>
+        <string name="highlightDrop_7">您本周采购支出下降了</string>
+        <string name="highlightDrop_8">很遗憾...本月收入下降了</string>
+        <string name="highlightDrop_9">恭喜老板，相比上月成本了下降了</string>
+        <string name="highlightDrop_10">很遗憾...本月利润下降了</string>
+        <string name="highlightDrop_11">本月采购支出下降了</string>
+
+        <string name="back_daily_income">详情</string>
+
+        <string name="currency_unit_yi">亿</string>
+        <string name="currency_unit_wan">万</string>
+        <string name="currency_unit_thousand">k</string>
+        <string name="currency_unit_million">m</string>
+        <string name="currency_unit_billion">b</string>
+        <!-- end, lqy, 20120826, for DailyIncomeSumDisplay.java -->
+
+        <!-- charge_method_selector.xml -->
+        <string name="charge_method_selector_title">选择支付方式</string>
+
+        <!-- main_setting.xml -->
+        <string name="main_setting_title">更多</string>
+        <string name="main_setting_group_data">数据处理</string>
+        <string name="main_setting_group_charge">充值</string>
+        <string name="main_setting_group_others">其它</string>
+        <string name="main_setting_group_Employee">权限与员工</string>
+        <string name="main_setting_group_Business">业务处理</string>
+        <string name="main_setting_group_Hardware">硬件设置</string>
+
+        <!-- main_menu_6_grid.xml -->
+        <string name="main_menu_category_purchase">采购</string>
+        <string name="main_menu_category_sales">销售</string>
+        <string name="main_menu_category_stock">库存</string>
+        <string name="main_menu_category_report">报表</string>
+        <string name="main_menu_category_data">基础数据</string>
+        <string name="main_menu_category_logout">注销</string>
+        <string name="main_menu_category_about">关于我们</string>
+        <string name="main_menu_category_sync">电脑同步</string>
+
+        <!-- charge_package.xml -->
+        <string name="charge_step1_packages_btn">选择套餐</string>
+        <string name="charge_step2_charging_btn">2.充值</string>
+        <string name="charge_step3_save_btn">3.保存生效</string>
+
+        <string name="charge_questions">问题处理</string>
+
+        <string name="charge_package_null">您未选择套餐，请重新选择。</string>
+        <string name="charge_package_current_name">当前套餐</string>
+        <string name="charge_package_selected_name">所选套餐</string>
+        <string name="charge_package_user_amount">您的余额（元）</string>
+        <string name="charge_package_amount_is_enough">您的余额足以支付该套餐，请上传服务器生效。</string>
+        <string name="charge_package_amount_is_not_enough">您的余额不足以支付该套餐，请继续充值。</string>
+        <string name="charge_package_uploadButton">保存并上传</string>
+        <string name="charge_package_save_fail">保存失败，请重试或联系全国客服：0571-28130038</string>
+
+        <string name="charge_package_upload_success">保存并上传成功。</string>
+        <string name="charge_package_upload_fail">保存并上传失败，请重试。</string>
+
+        <string name="chage_package_no_limit">终身版</string>
+        <string name="chage_package_no_limit_intro">288元，性价比最高</string>
+        <string name="chage_package_yearly">年付</string>
+        <string name="chage_package_yearly_intro">180元</string>
+        <string name="chage_package_half_year">半年付</string>
+        <string name="chage_package_half_year_intro">90元</string>
+
+        <!-- package_selector.xml -->
+        <string name="package_selector">套餐</string>
+        <string name="package_selector_hint">请选择</string>
+        <string name="payment_method_selector">支付方式</string>
+        <!-- payment_questions.xml -->
+        <string name="payment_questions">充值遇到问题？</string>
+        <string name="payment_questions_dial">拨打全国客服：0571-28130038</string>
+        <string name="payment_questions_download">网站充值成功，下载充值记录</string>
+        <string name="service_phone_number">0571-28130038</string>
+
+        <string name="payment_history_list">历史充值记录</string>
+        <string name="chage_method_forward">下一步</string>
+        <string name="charge_trial_hint">注册后，您有30天的试用期。\n\n试用期结束，请付款使用。\n您也可以在试用期通过分享赚取积分，试用期后免费使用。</string>
+
+        <string name="chage_method_more">如须银行转帐方式支付，请访问\n<u>www.91laiqian.com</u>\n在“充值”页面了解银行转帐帐号</string>
+
+        <!-- activate_web_version_Btn -->
+        <string name="version">版本</string>
+        <string name="activate_web_version_Btn">马上激活网页版</string>
+        <string name="activate_web_version_message">正在激活网页版...</string>
+        <string name="activate_web_version_success">激活成功。</string>
+        <string name="activate_web_version_fail">激活失败。</string>
+        <string name="activate_web_version_error_on_user_password">您的帐户信息有误，请重新登录。</string>
+        <string name="activate_web_version_welcome">欢迎您使用 <b>来钱快 · 网页版</b></string>
+        <string name="activate_web_version_info">请使用来钱快1.8以上程序版本和网页版互联\n激活后，请登录以下地址即可使用\n网页版地址：<u>web.91laiqian.com</u></string>
+        <string name="activate_web_version_fail_nChargeTemplate_is_mobile_only">激活失败。\n\n您已经选择了仅手机版的套餐，若需修改，请前往“充值”的“保存生效”页面修改。</string>
+
+        <!-- BackUpUtility.java -->
+        <string name="backup_sdcard_not_ready">备份功能不可用：未插入SD卡，或SD卡打不开。</string>
+        <string name="backup_no_backup_files">您SD卡的laiqian目录没有备份文件。</string>
+
+        <!-- BackUpLoadFileList.java -->
+        <string name="backup_load_file_message">正在为您恢复数据...</string>
+        <string name="backup_load_file_title">请选择备份文件</string>
+        <string name="backup_load_file_tips">备份文件目录：</string>
+        <string name="backup_load_file_success">恢复数据成功。</string>
+        <string name="backup_load_file_fail">恢复数据失败！\n\n</string>
+        <string name="backup_load_file_zip_fail">失败原因是解压缩数据失败！请确保数据包未损坏。</string>
+        <string name="backup_load_file_old_version_fail">您使用程序版本低于数据文件的版本，请到www.91laiqian.com下载并更新最新版本。\n\n</string>
+        <string name="backup_load_file_load_fail">数据文件中部分数据有非法格式，请咨询全国客服：0571-28130038</string>
+
+        <string name="backup_load_file_load_fail_before_205">失败原因是\n（1）请确认数据包是由来钱快v2.05以上版本生成的；\n（2）不支持v2.04之前的数据包。</string>
+        <!-- BackUpSetting.java -->
+        <string name="backup_Setting_title">备份设置</string>
+        <string name="backup_Setting_auto">自动备份</string>
+        <string name="backup_Setting_auto_interval">备份周期</string>
+        <string name="backup_Setting_auto_time">备份时间</string>
+        <string name="backup_Setting_auto_delete">删除过早的自动备份文件</string>
+        <string name="backup_Setting_auto_nums">保存自动备份的文件数量</string>
+        <string name="backup_Setting_numsUnit">个</string>
+
+        <string name="backup_Interval_1">1天</string>
+        <string name="backup_Interval_2">2天</string>
+        <string name="backup_Interval_3">7天</string>
+        <string name="backup_Interval_4">15天</string>
+        <string name="backup_Interval_5">一个月</string>
+        <string name="backup_Interval_6">三个月</string>
+        <string name="backup_Interval_7">半年</string>
+        <string name="backup_Interval_8">一年</string>
+        <!-- BackUpMenu.java -->
+        <string name="backup_menu_rightBtn">设置</string>
+        <string name="backup_menu_pb_title">数据操作</string>
+        <string name="backup_load_btn">恢复</string>
+        <string name="backup_del_btn">删除</string>
+        <string name="backup_menu_pb_message">正在为您备份数据……</string>
+        <string name="backup_menu_load_title">温馨提示</string>
+        <string name="backup_menu_load_msg">恢复备份会完全覆盖当前的数据，是否确定恢复数据？</string>
+        <string name="backup_menu_title">离线备份</string>
+        <string name="backup_menu_btn">备份</string>
+        <string name="backup_menu_list_backup">备份数据到SD卡</string>
+        <string name="backup_menu_list_read_backup_file">从SD卡中恢复数据</string>
+        <string name="backup_menu_list_how_to">如何备份和恢复</string>
+        <string name="backup_menu_list_how_to_content">备份\n点击“备份数据到SD卡”，当前的所有数据将被备份到SD Card的laiqian目录，以时间排序。
+				\n\n恢复\n点击“从SD卡中恢复数据”，进入下一步后，从您的SD Card的laiqian目录选择一个后缀为“lq”的数据文件，即可恢复。请注意，如果您的程序版本较低，
+				请更新到最新版本的程序再进行恢复。</string>
+        <string name="backup_menu_list_backup_success">备份成功，文件名为：</string>
+        <string name="backup_menu_list_backup_fail">备份失败。\n\n常见的原因是SD卡不允许安卓系统写入数据，更换SD卡即可。</string>
+        <string name="backup_menu_list_backup_file_manual_pre">手动备份</string>
+        <string name="backup_menu_list_backup_file_auto_pre">自动备份</string>
+
+        <!-- on error -->
+        <string name="error_class_not_found">对不起，系统未找到需要启动的窗口类型，出错退出，\n\n请联系全国客服：0571-28130038。</string>
+
+        <!-- auth_settings.xml -->
+        <string name="auth_uploadButton">上传权限设置</string>
+        <string name="auth_upload_success">上传权限 成功。\n\n请通知您的员工 下载 数据。</string>
+        <string name="auth_upload_fail">上传权限设置 失败。\n\n请检查您的数据是否正确，或联系全国客服：0571-28130038。</string>
+        <string name="auth_submitButton">保存</string>
+        <string name="auth_userHint">请选择员工</string>
+        <string name="auth_role_label">选择角色</string>
+        <string name="auth_update_window_list">配置权限</string>
+        <string name="auth_update_window_list_success">成功</string>
+        <string name="auth_update_window_list_fail">失败</string>
+        <string name="auth_no_role_Hint">目前没有角色, 请先创建角色.</string>
+        <!-- auth_role_list.xml -->
+        <string name="auth_list_role_txt">角色名称</string>
+        <string name="auth_roleInfo">角色信息</string>
+        <string name="auth_SearchHint">查询角色</string>
+        <string name="auth_newRoleLabel">创建角色</string>
+        <string name="auth_role_setting_Label">角色的权限</string>
+        <string name="auth_employee_setting_Label">员工权限</string>
+        <string name="auth_default_roles">系统默认角色不能修改，请使用 创建角色</string>
+
+        <!-- auth_role_details.xml -->
+        <string name="auth_idTxt">角色编号</string>
+        <string name="auth_RoleTxt">角色名称</string>
+        <string name="auth_RoleHint">必填</string>
+        <string name="auth_DescTxt">详细描述</string>
+        <string name="auth_DescHint">选填</string>
+        <string name="auth_delete_success1">角色 \' </string>
+        <string name="auth_delete_success2">\'已经被删除.</string>
+        <string name="auth_submit_success">创建成功.</string>
+        <string name="auth_update_success">更新成功.</string>
+        <string name="auth_update_fail">更新失败.</string>
+
+        <!-- auth_employee_setting.xml -->
+        <string name="auth_roleHint">请选择角色</string>
+        <string name="auth_employee_success">员工角色配置成功</string>
+        <string name="auth_employee_fail">员工角色配置失败</string>
+        <string name="auth_employee_save">保存配置</string>
+
+        <string name="auth_assign_employee_title">分配员工角色</string>
+        <string name="auth_no_employee_role_Hint">目前没有员工账号, 请先到用户管理中创建员工.</string>
+
+
+        <!-- import_list_activity.xml -->
+        <string name="import_list_title">导入导出功能</string>
+        <string name="import_list_how_to_import">如何导入</string>
+        <string name="import_list_get_template">生成导入模板</string>
+        <string name="import_list_get_template_success">生成导入模板成功</string>
+        <string name="import_list_import_product">导入商品</string>
+        <string name="import_list_import_type">导入商品分类</string>
+        <string name="import_list_how_to_export">如何导出</string>
+        <string name="import_list_how_to_import_text">1：点击“生成导入模板”\n\n2：请从手机SD卡中将/sdcard/laiqian/import_product.csv复制到电脑，使用Excel打开。编辑商品数据，一行一个商品，商品名，商品类型和描述中不能带有逗号。\n\n
+	3：编辑完成，另存为csv文件（以英文逗号分隔的文件），请复制至手机SD卡并替换/sdcard/laiqian/import_product.csv文件\n\n4：然后点击导入商品。默认导入类型为“未定义”，您可以在商品类型管理中，选择具体类型，然后点击菜单导入，则导入为具体类别。\n\n
+	4：同理，import_product_type.csv用于导入商品分类</string>
+        <string name="import_list_how_to_export_text">在来钱快中，有2种方式导出数据：\n\n
+	1：在数据列表的右上角，有导出功能，点击即可导出，保存在手机SD卡中的/sdcard/laiqian/目录\n\n
+	2：对于库存数据，可以在库存盘点界面，点击手机MENU键，再点击导出即可，也保存在以上目录</string>
+
+        <!-- import_preview.xml, importPreviewActivity.java -->
+        <string name="import_preview_name">待导入数据预览</string>
+        <string name="import_preview_ok">导入</string>
+        <string name="import_preview_cancel">取消</string>
+
+        <!-- importOperator.java -->
+        <string name="import_help_confirm">确定</string>
+        <string name="import_success">导入成功\n\n</string>
+        <string name="import_success_records">个已导入.</string>
+        <string name="import_fail">导入失败</string>
+        <string name="import_template_column_names">商品名称,商品描述,显示单价,采购单价,成本价,卖出单价,条码,库存数量\r\n</string>
+        <string name="import_template_type_column_names">商品类型\r\n</string>
+
+
+        <string name="import_product_title">如何导入</string>
+
+        <!-- exportOperator.java -->
+        <string name="export_sdcard_nofound">SD卡不存在或有写保护</string>
+        <string name="export_success">导出至SD卡成功：\n\n</string>
+        <string name="export_fail">导出失败</string>
+        <string name="export_btn"><u>导出</u></string>
+
+        <!-- pb网络同步的提醒 -->
+        <string name="pb_title">数据同步</string>
+        <string name="pb_send">发送</string>
+        <string name="pb_error_title">同步失败</string>
+        <string name="pb_message">与服务器交互数据中……</string>
+        <string name="pb_message_password">与服务器更新密码中……</string>
+        <string name="pb_message_account">与服务器更新账号中……</string>
+        <string name="pb_login">用户登录</string>
+        <string name="pb_register">用户注册</string>
+        <string name="pb_login_connecting">请求服务器验证中……</string>
+        <string name="pb_feedback_submitting">正在向服务器提交反馈和建议内容中……</string>
+        <string name="pb_incomeSumActivity_getdata">从服务器请求数据中……</string>
+        <string name="pb_error_id">错误代码：</string>
+        <string name="pb_mail_send_title">正在发送……</string>
+        <string name="pb_mail_send_msg">发送给我们将有助于更好的解决您的问题。</string>
+        <string name="pb_error_step">错误步骤：</string>
+        <string name="pb_error_prompt">看不懂没关系，点击‘发送’，把这些问题交给我们吧。</string>
+        <string name="sales_new_quick_input_dialog">提示</string>
+        <string name="sales_new_quick_input_message">商品不存在, 程序将新建此商品,然后生成订单。\n\n确定吗 ? </string>
+
+        <!-- laiqian.java -->
+        <string name="lqj_insufficient_money">您的余额不足</string>
+        <string name="lqj_balance">试用期结束后，您的帐面余额为</string>
+        <string name="lqj_pls_charge">，请立即充值。</string>
+        <string name="lqj_go_charge">马上充值</string>
+        <string name="lqj_logout">切换帐号</string>
+        <string name="lqj_exit_all">温馨提示</string>
+        <string name="lqj_clean_tips">您在电脑上清空过数据，为了避免数据错误，请及时清空手机上的数据，并再次同步。</string>
+        <string name="lqj_clean_tips2">您在服务器清空过一次数据，为了保持一致性，建议您清空手机端的数据，然后再同步一次。是否清空？</string>
+        <string name="lqj_down_fail_time_tips">您的网速太差了，请调整网络。</string>
+        <string name="lqj_down_fail_network_tips">网络连接失败，请调整后再同步。</string>
+        <string name="lqj_down_fail_btn">我知道了</string>
+        <string name="lqj_exit_confirm">您要暂时离开 来钱快？</string>
+        <string name="lqj_ok">确定</string>
+        <string name="lqj_cancel">取消</string>
+        <string name="lqj_SynchronizingChargeData">充值成功，请重启程序。</string>
+
+        <!-- input_feedback.xml -->
+        <string name="if_submit">提交</string>
+        <string name="if_feedback_hint">   请在此处填写您的宝贵建议...</string>
+
+        <!-- inputFeedback.java -->
+        <string name="ifj_success">我们已经收到您的反馈和建议，谢谢您！\n如有必要，我们会及时与您取得联系。</string>
+        <string name="ifj_pls_input">请输入反馈和建议内容！</string>
+
+
+
+        <!-- StartScreen.xml, java -->
+
+        <string name="BRAND_NAME">来钱快 · 进销存</string>
+        <string name="VERSION_NUMBER">for Android</string>
+        <string name="UPGRADE_INFO">正在更新版本中...</string>
+        <string name="UPGRADE_INFO_FINISH">更新成功</string>
+        <string name="UPGRADE_INFO_FINISH_FAIL">更新失败，请重新安装原先版本</string>
+        <string name="COPYRIGHT">Copyright \u00A9 91laiqian.com, All Rights Reserved</string>
+        <string name="COPYRIGHT_about">Copyright \u00A9 <u>91laiqian.com</u>\n All Rights Reserved</string>
+        <string name="CONTACT_about">公司：杭州萨宝科技有限公司\n全国客服：0571-28130038 \n电子邮箱：i@91laiqian.com \n客服qq群：187421505\n官方主页：<u>www.91laiqian.com</u>\n\n</string>
+
+        <!-- networkBroadcastReceiver.java -->
+        <string name="UPDATE_UPLOAD">上传同步</string>
+        <string name="UPDATE_DOWNLOAD_ALL">下载同步</string>
+        <string name="UPDATE_DOWNLOAD_ADVERTISEMENT">下载同步</string>
+        <string name="UPDATE_DOWNLOAD_DOC_FROMDATE_TODATE">下载同步</string>
+        <string name="UPDATE_SHOP_DATA_ALL">下载店铺数据</string>
+        <string name="UPDATE_SHOP_DATA_DOC_FROMDATE_TODATE">下载店铺数据</string>
+        <string name="UPDATE_CHECK_BOSS_PASSWORD">验证老板信息</string>
+        <string name="UPDATE_CHECK_USER_PASSWORD">用户手机号登录</string>
+        <string name="UPDATE_CHECK_DOC_DATE">查询服务器数据日期</string>
+        <string name="DOWNLOAD_APK">主程序更新</string>
+        <string name="UPDATE_SUCCESS">完成！</string>
+        <string name="UPDATE_FAIL">失败！</string>
+        <string name="UPDATE_FAIL_NETWORK">因网络不可用失败！</string>
+        <string name="UPDATE_FAIL_UPLOAD_FILE">上传数据文件失败.</string>
+        <string name="UPDATE_FAIL_UPLOAD_SERVER_SYNC">服务器更新数据失败.请检查您的数据!</string>
+        <string name="UPDATE_FAIL_UPLOAD_LOCAL_SYNC">上传数据成功,清理本地数据时出现问题.</string>
+        <string name="UPDATE_FAIL_DOWNLOAD_SERVER_SYNC">服务器生成下载文件失败.</string>
+        <string name="UPDATE_FAIL_DOWNLOAD_LOCAL_DOWNLOAD">下载数据文件失败.</string>
+
+        <string name="upgrading_apk_noti">正在更新您的来钱快程序包</string>
+
+
+        <!-- LoginActivity, RegisterActivity -->
+        <string name="l_login">登录</string>
+        <string name="l_register_shop">免费注册</string>
+        <string name="l_register_user">员工注册</string>
+        <string name="l_userPhone">手机号</string>
+        <string name="l_password">密码</string>
+        <string name="l_info"><u>忘记密码？</u></string>
+        <string name="l_info_network">注册时请保持网络畅通\r\n* WIFI，3G和GPRS网络会获得更好体验\n</string>
+        <string name="l_info_about"><u><b>来钱快 </b>是什么？</u></string>
+        <string name="l_default_login">\n<u><b>体验帐号 </b>登陆试用</u></string>
+        <string name="l_loginAlertTitle">错误！</string>
+        <string name="l_loginAlertInfo">手机号或密码不能为空</string>
+        <string name="l_loginAlertInfo_forget_password">忘记密码，请先输入手机号</string>
+        <string name="l_loginAlertFeedback">您的手机号或密码输入有误，请确认并重新输入</string>
+        <string name="l_loginAlertPasswordfail">手机号存在,但输入密码不正确,是否到服务器验证？</string>
+        <string name="l_loginAlertforget_verify">是否到服务器验证手机号和密码？</string>
+        <string name="l_loginAlertButton">确定</string>
+        <string name="l_CleanDataButton">清空数据</string>
+        <string name="l_CleanDataSuccess">清空数据成功</string>
+        <string name="l_CleanDataFail">清空数据失败</string>
+
+        <string name="r_title">员工注册</string>
+        <string name="r_account">员工手机</string>
+        <string name="r_userName">员工姓名</string>
+        <string name="r_password">密　　码</string>
+        <string name="r_lv_no_result">查询结果为空</string>
+        <string name="r_lv_result">查询完成</string>
+        <string name="l_loginPasswodSet">密码输入设置</string>
+        <string name="l_loginPasswodShow">显示输入的密码 ?</string>
+
+        <!-- 安卓市场版本 -->
+        <string name="r_channelID">1000</string>
+        <string name="channelID">android</string>
+        <string name="r_bossPhone">老板手机</string>
+        <string name="r_bossPassword">老板密码</string>
+        <string name="r_role">用户角色</string>
+        <string name="r_saveAlertTile">错误！</string>
+        <string name="r_saveAlertInfo">必须输入老板手机号和密码</string>
+        <string name="r_saveAlertAccountInfo">必须输入员工手机号和密码</string>
+        <string name="r_saveAlertButton">确定</string>
+        <string name="r_saveAlertDiffPassInfo">密码不一致</string>
+        <string name="rj_fail">Pls check boss phone number and password.</string>
+
+        <string name="rj_success">员工账号新建成功</string>
+        <string name="rj_fail_phone">注册失败：手机号已经注册过。</string><!-- 20120214 chen, to modify to indicate only fail on mobile phone -->
+
+        <!-- RegisterShopActivity -->
+        <string name="rs_title">老板注册</string>
+        <string name="rs_account">老板手机</string>
+        <string name="rs_Email">电子邮箱</string>
+        <string name="rs_password">密码</string>
+        <string name="rs_storeName">商户名称</string>
+        <string name="rs_optional">选填</string>
+        <string name="rs_cgtyName">所属行业</string>
+        <string name="rs_cgtyName_hint">选择所属行业</string>
+        <string name="rs_role">用户角色</string>
+        <string name="rs_saveButton">注册</string>
+
+
+        <string name="rs_userrole_boss">老板</string>
+        <string name="rs_user_notice_agree">我同意</string>
+        <string name="rs_user_notice_license"><u>使用协议</u></string>
+
+
+        <!-- ui_titlebar.xml -->
+        <string name="ui_titlebar_title">来钱快·进销存</string>
+        <string name="ui_titlebar_back">返回</string>
+        <string name="ui_titlebar_help">帮助</string>
+
+        <!-- 九宫格主界面的显示 -->
+        <string name="mainmenu_sell_out">卖出 </string>
+        <string name="mainmenu_sell_in">采购</string>
+        <string name="mainmenu_sell_out_return">销售退货</string>
+        <string name="mainmenu_sell_in_return">采购退货</string>
+        <string name="mainmenu_reconciliate">对账</string>
+        <string name="mainmenu_income_expense">收入支出</string>
+        <string name="mainmenu_stock_check">盘点</string>
+        <string name="mainmenu_product_management">商品数据</string>
+        <string name="mainmenu_stock_management">仓库库存</string>
+        <string name="mainmenu_user_management">账号与权限</string>
+        <string name="mainmenu_help">帮助</string>
+        <string name="mainmenu_synchronize">电脑同步</string>
+        <string name="mainmenu_synchronize_upload">上传</string>
+        <string name="mainmenu_synchronize_download">下载</string>
+        <string name="mainmenu_synchronize_sync">同步</string>
+        <string name="mainmenu_bpartner">往来单位</string>
+        <string name="mainmenu_warehouse">仓库</string>
+        <string name="mainmenu_import_export">导入导出</string>
+        <string name="mainmenu_authentication">权限管理</string>
+        <string name="mainmenu_sales">销售</string>
+        <string name="mainmenu_sales_preorder">预订单</string>	<!-- added by raid, 20141028, v2.15 -->
+        <string name="mainmenu_purchases">采购</string>
+        <string name="mainmenu_purchases_history">采购历史</string>
+        <string name="mainmenu_sales_quick">快速销售</string>
+        <string name="mainmenu_purchases_quick">快速采购</string>
+        <string name="mainmenu_stockmove">移库</string>
+        <string name="mainmenu_firstPage">基础设置 </string>
+        <string name="mainmenu_secondPage">业务处理 </string>
+        <string name="mainmenu_thirdPage">报表 . 其它 </string>
+        <string name="mainmenu_unit">商品单位 </string>
+        <string name="mainmenu_logout">注销账号 </string>
+        <string name="mainmenu_activate">激活网页版 </string>
+
+        <string name="mainmenu_share">每日分享，免费使用</string>
+
+        <!-- ui_bottombar.xml -->
+
+        <!--values for system，如业务类型等-->
+        <string name="operation_type_stock_check">库存盘点</string>
+        <string name="operation_type_product_data">商品数据</string>
+        <string name="operation_type_warehouse_stockMove">移库</string>
+        <string name="operation_type_sales">销售</string>
+
+        <string name="default_nPhysicalInventoryID">0</string>
+
+        <string name="order_type">业务类型</string>
+
+        <string name="order_type_mainscreen">主界面</string>
+        <string name="order_type_sell_out">销售</string>
+        <string name="order_type_sell_in">采购</string>
+        <string name="order_type_sell_out_return">销售退货</string>
+        <string name="order_type_sell_in_return">采购退货</string>
+        <string name="order_type_sell_out_history">销售历史</string>
+        <string name="order_type_sell_in_history">采购历史</string>
+        <string name="order_type_stock_history">库存历史</string>
+        <string name="order_type_expense">收入支出</string>
+        <string name="order_type_order_list">交易明细</string>
+        <string name="order_type_stock_check">盘点</string>
+        <string name="order_type_stock_add">盘盈</string>
+        <string name="order_type_stock_reduce">盘亏</string>
+        <string name="order_type_product_type">商品类型</string>
+        <string name="order_type_product_type_edit">编辑商品类型</string>
+        <string name="order_type_help">帮助</string>
+        <string name="order_type_sale">销售</string>
+        <string name="order_type_sale_history">销售历史</string>
+        <string name="order_type_purchase">采购</string>
+        <string name="order_type_sale_return">销售退货</string>
+        <string name="order_type_purchase_return">采购退货</string>
+        <string name="order_type_incoming_of_payment">收款</string>
+        <string name="order_type_payment">付款</string>
+
+        <string name="order_type_new_shop">老板注册</string>
+        <string name="order_type_new_user">用户注册</string>
+        <string name="order_type_user_management">用户管理</string>
+        <string name="order_type_user_edit">修改员工信息</string>
+        <string name="order_type_configuration">设置</string>
+        <string name="order_type_about">关于</string>
+        <string name="order_type_feedback">建议反馈</string>
+        <string name="order_type_bpartner">往来单位</string>
+
+
+        <string name="order_type_import_export">导入</string>
+        <string name="order_type_auth_setting">权限设置</string>
+        <string name="order_type_role_list">角色列表</string>
+        <string name="order_type_role_new">新建角色</string>
+        <string name="order_type_role_edit">编辑角色</string>
+        <string name="order_type_employee_role">员工角色配置</string>
+
+
+        <string name="order_type_warehouse">仓库</string>
+        <string name="order_type_warehouse_stock">库存</string>
+        <string name="order_type_warehouse_stock_history">库存历史</string>
+        <string name="order_type_stockMove">移库</string>
+        <string name="order_type_assemble">组装</string>
+        <string name="order_type_dismantle">拆卸</string>
+        <string name="order_type_sell_in_new">采购</string>
+
+
+        <!-- 退货时连款一起退了 -->
+
+        <string name="report_stream">流水账</string>
+        <string name="report_sales_daily">销售报表</string>
+        <string name="report_sales_customer">客户销售报表</string>
+        <string name="report_sales_product">商品销售报表</string>
+        <string name="report_receivable">客户欠款</string>
+        <string name="report_payable">供应商欠款</string>
+        <string name="report_purchase_daily">采购报表</string>
+
+
+
+        <!--sellout.xml的值-->
+        <string name="inventorySearchLabel">商品名搜索</string>
+        <string name="s_transactionListBtnLabel">卖出记录</string>
+        <string name="s_inventoryBtnLabel">选商品</string>
+        <string name="s_scanBtnLabel">扫描</string>
+        <string name="s_manualBtnLabel">手动输入</string>
+        <string name="s_submitButton">提交</string>
+        <string name="s_cancelButton">清空</string>
+        <string name="s_deleteTxt">删除交易 </string>
+        <string name="s_commentLabel">备注：</string>
+        <string name="s_barcodeLabel">条码：</string>
+        <string name="s_noticeLabel">*项为必填项</string>
+        <string name="s_iidValue">novaluexxxxxxxxx</string>
+        <string name="s_must_input">（注意：* 项必须输入）</string>
+        <string name="s_currency">元</string>
+        <string name="s_bpartnerNameLabel">往来单位</string>
+        <string name="s_contactLabel">联系人</string>
+        <string name="s_contactMobileLabel">手机</string>
+        <string name="s_sellPriceIsMuchLow">请注意：您的卖出价低于库存价</string>
+        <string name="s_unitTxt">单位</string>
+        <string name="s_date">日期</string>
+
+        <!-- sellOut.java -->
+        <string name="sj_product_notexist">商品不存在，\n请在采购页面直接创建\n或在商品数据管理页面创建。</string>
+        <string name="sj_input_0">请输入大于0的商品数量 ！</string>
+        <string name="sj_no_stock">库存不足，当前仓库库存  \n 数量为  </string>
+        <string name="sj_pls_sell_in">退货给供应商前，\n请确保从该供应商足额采购！</string>
+        <string name="sj_product">商品</string>
+        <string name="sj_new_product">数据已经生成</string>
+        <string name="sj_new_order">交易记录已经提交</string>
+        <string name="sj_go_sellin">马上采购</string>
+        <string name="sj_ok">确认</string>
+        <string name="sj_cancel">取消</string>
+        <string name="sj_pls_input_name">请输入商品名，单价和数量和仓库等必输字段</string>
+        <string name="sj_pls_input_warehouse_name">请输入仓库</string>
+        <string name="sj_pls_input_product_name">请输入商品名</string>
+        <string name="sj_pls_input_price">请输入单价</string>
+        <string name="sj_pls_input_quantity">请输入数量</string>
+        <string name="sj_pls_input_amount">请输入金额</string>
+
+        <string name="s_delete_success">点击记录可以删除，更多记录请在"收入支出"下查找</string>
+        <string name="sj_newproductFailed">创建交易记录失败，请检查您的输入数据</string>
+
+
+        <string name="buyIn_transactionListBtnLabel">采购记录</string>
+        <string name="buyInReturn_transactionListBtnLabel">退货记录</string>
+        <string name="sReturn_transactionListBtnLabel">退货记录</string>
+
+        <!--simpletextview.xml的值-->
+        <string name="listClick">选择</string>
+        <string name="productTextLabel">商品：</string>
+        <string name="priceTextLabel">单价</string>
+        <string name="inventoryLabel">数量</string>
+
+
+        <!-- reconciliate -->
+        <string name="r_sumTxt">合计</string>
+        <string name="r_detailsTxt">明细</string>
+        <string name="r_dateBegin">起始日期</string>
+        <string name="r_dateEnd">结束日期</string>
+        <string name="r_receivableButton">查询应收</string>
+        <string name="r_payableButton">查询应付</string>
+        <string name="r_dataInfo">起止时间不正确</string>
+        <string name="r_dataToast">请输入起止时间</string>
+        <string name="r_receivableTxt">应收</string>
+        <string name="r_receivedTxt">实收</string>
+        <string name="r_payableTxt">应付</string>
+        <string name="r_paidTxt">实付</string>
+        <string name="r_product">商品 </string>
+        <string name="r_quantity">数量 </string>
+        <string name="r_receivedTxt1">实收 </string>
+        <string name="r_receivableTxt1">应收 </string>
+        <string name="r_payableTxt1">应付</string>
+        <string name="r_paidTxt1">实付</string>
+        <string name="r_CheckDocDate_Title">与服务器同步</string>
+        <string name="r_CheckDocDate_Content">服务器可以提供的数据时间\n从：</string>
+        <string name="r_CheckDocDate_Content_Connector">\n至：</string>
+        <string name="r_CheckDocDate_Content_Notice">\n*默认显示为本地数据\n*更多信息请点击帮助</string>
+        <string name="r_CheckDocDate_Positive">修改起止时间</string>
+        <string name="r_CheckDocDate_Negative">联网同步</string>
+        <string name="r_pls_time">请选择时间</string>
+        <string name="r_history_title">下载历史数据</string>
+        <string name="r_history_msg">为节约您手机的存储空间，手机只存储30天以内的数据。更多的历史数据存储在服务器，请选择历史数据的起始日期和结束日期后，点击下载。\n\n</string>
+        <string name="r_history_down">下载</string>
+        <string name="r_history_back">返回修改日期</string>
+
+        <!-- orderoperation.xml的内容 -->
+        <string name="o_orderoperationtitle">对账信息</string>
+        <string name="o_orderoperationresult">对账结果</string>
+        <string name="o_orderTypeTxt">交易类型</string>
+        <string name="o_orderTitle">单据细节</string>
+        <string name="o_orderIDTxt">单据号</string>
+        <string name="o_orderIDTxt_1">单据号</string>
+        <string name="o_productTxt">商品名称</string>
+        <string name="o_amountTxt">商品数量</string>
+        <string name="o_payableTxt">应付金额</string>
+        <string name="o_paidTxt">实付金额</string>
+        <string name="o_receivableTxt">金额</string>
+        <string name="o_receivedTxt">实收金额</string>
+        <string name="o_receivableSumTxt">应收余额</string>
+        <string name="o_receivableSuminfo"> (余额为0代表所有钱已收或已付) </string>
+        <string name="o_payableSumTxt">应付余额</string>
+        <string name="o_createTimeTxt">创建时间</string>
+        <string name="o_commentsTxt">备注</string>
+        <string name="o_receivableNoticeTxt">*：请输入应收和实收金额</string>
+        <string name="o_payableNoticeTxt">*：请输入应付和实付金额</string>
+        <string name="o_receivableIsSmallerTxt">实收金额不能大于应收金额</string>
+        <string name="o_payableIsSmallerTxt">实付金额不能大于应付金额</string>
+        <string name="timeFormat">"yyyy年MM月dd日    HH:mm:ss"</string>
+        <string name="dateFormat">"yyyy年MM月dd日"</string>
+        <!-- orderdetails.xml -->
+        <string name="o_commentsTxt_1">备注</string>
+        <string name="od_priceTxt">价格 </string>
+        <string name="od_bpartnertitle">往来单位 </string>
+        <string name="od_ordertitle">交易信息 </string>
+
+
+        <!-- orderOperationActivity.java -->
+        <string name="ooj_order">订单</string>
+        <string name="ooj_update">已经更新</string>
+        <string name="ooj_delete">已经删除</string>
+        <string name="ooj_noRepeatDelete">此交易记录已经被删除。</string>
+
+        <!-- income_summary.xml -->
+        <string name="i_pleaseSelect">请选择</string>
+        <string name="i_incomeButton">收入支出</string>
+        <string name="i_orderButton">查询</string>
+        <string name="i_dateTxt">日期</string>
+        <string name="i_incomeTxt">收入</string>
+        <string name="i_costTxt">成本</string>
+        <string name="i_expenseTxt">采购支出</string>
+        <string name="i_marginTxt">利润</string>
+        <string name="i_incomeListViewClick">明细</string>
+        <string name="i_sumTxt">合计</string>
+        <string name="i_detailsTxt">明细</string>
+        <string name="i_product">商品</string>
+        <string name="i_expandedButtonPlus"> - </string>
+        <string name="i_expandedButtonMinus"> + </string>
+        <string name="i_bpartnerTxt">往来单位</string>
+
+        <!-- incomeSumActivity.java -->
+        <string name="isj_no_sellout">不存在卖出交易数据</string>
+        <string name="isj_no_sellin">不存在采购交易数据</string>
+        <string name="isj_pls_time">请选择时间</string>
+
+        <!-- order_list.xml -->
+        <string name="ol_title">交易明细</string>
+        <string name="ol_sProductName">商品</string>
+        <string name="ol_nProductQty">数量</string>
+        <string name="ol_fAmount">金额</string>
+        <string name="ol_deleteItem">删除</string>
+        <string name="ol_deleteItemDetails">你真的要删除这条记录吗?</string>
+        <string name="ol_yes">确定</string>
+        <string name="ol_no">取消</string>
+
+        <!-- stockcheck.xml -->
+        <string name="sc_inventorySearchLabel">库存查询</string>
+        <string name="sc_inventorySearchHint">请输入商品名称</string>
+        <string name="sc_productTxt">商品名称</string>
+        <string name="sc_amountTxt">当前仓库\n\r数量</string>
+        <string name="sc_stockCheckTxt">盘点数量</string>
+        <string name="sc_noStockCheckValue">请输入仓库、商品、数量等必填字段</string>
+        <string name="sc_product_found">扫描结果 </string>
+        <string name="sc_no_product_found">该条码无对应商品</string>
+        <string name="sc_listButtonTxt">盘点记录 </string>
+        <string name="sc_QuantityLabel">数量 </string>
+        <string name="sc_warehouseNecessary">请先选择仓库 </string>
+        <string name="sc_qtyinfo">数量必须大于0 </string>
+
+        <string name="pl_inventorySearchHint"> 种商品, 请开始搜索</string>
+        <string name="sc_docSearchHint"> 条操作记录, 请开始搜索</string>
+        <string name="sales_orderSearchHint"> 个订单, 请开始搜索</string>
+
+        <!-- stockCheck_details.xml -->
+        <string name="scd_barcode">商品条码</string>
+        <string name="scd_type">商品类型</string>
+        <string name="scd_commentsTxt">备注</string>
+        <string name="scd_warehouseTxt">仓库 </string>
+
+        <!-- stockCheck_details.java -->
+        <string name="scj_product">商品</string>
+        <string name="scj_success">盘点记录已经提交</string>
+
+        <!-- productoperation.xml -->
+        <string name="po_changeproduct">修改商品数据</string>
+        <string name="po_newproduct">新建商品数据</string>
+        <string name="po_idTxt">商品编号</string>
+        <string name="po_amountTxt">库存数量</string>
+        <string name="po_barcodeTxt">条形码</string>
+        <string name="po_productTxt">商品名称</string>
+        <string name="po_productTypeTxt">商品类型</string>
+        <string name="po_showPriceTxt">显示单价</string>
+        <string name="po_salePriceTxt">销售价</string>
+        <string name="po_buyPriceTxt">采购价 </string>
+        <string name="po_stockPriceTxt">成本价 </string>
+        <string name="po_stockStatus">商品状态 </string>
+        <string name="po_descTxt">商品描述 </string>
+        <string name="po_submitButton">保存</string>
+        <string name="po_newButton">新建商品</string>
+        <string name="po_deleteButton">删除商品</string>
+        <string name="po_copyButton">复制新增</string>
+        <string name="po_noInputAlert">必须输入商品名、商品类型、商品状态和成本价</string>
+
+        <string name="po_error_updating_product_name_in_stock">错误：更新该商品库存的商品名时出错</string>
+        <string name="po_error_updating_unit_id_in_stock">错误：更新该商品库存的单位时出错</string>
+
+        <!-- productOperationActivity.java -->
+        <string name="poj_id">编号自动生成</string>
+        <string name="poj_product">商品</string>
+        <string name="poj_success_update">已更新</string>
+        <string name="poj_success_create">已创建</string>
+        <string name="poj_success_delete">已删除</string>
+        <string name="poj_stockUpdate">库存数量已经更新</string>
+
+
+        <!-- user_edit.xml -->
+        <string name="ue_ChangeAccount">修改用户信息</string>
+        <string name="ue_sUserPhone">用户手机</string>
+        <string name="ue_sUserName">用户姓名</string>
+        <string name="ue_sUserStatusTxt">用户状态</string>
+        <string name="ue_sDeletionFlag">帐户状态</string>
+        <string name="ue_sUserRole">用户角色</string>
+        <string name="ue_sText">    用户备注</string>
+        <string name="ue_ChangePassword">修改密码</string>
+
+        <string name="ue_sUserPassword">旧  密  码 </string>
+        <string name="ue_sNewUserPassword">新  密  码 </string>
+        <string name="ue_sConfirmUserPassword">确认密码</string>
+
+        <string name="ue_saveBtn">提交</string>
+
+        <string name="ue_oldPasswordWrong">旧密码输入有误！</string>
+        <string name="ue_newPasswordWrong">新密码输入不一致！</string>
+        <string name="ue_success">更新成功！</string>
+        <string name="ue_fail">更新失败！</string>
+
+        <!-- user_display.xml -->
+
+        <string name="ud_userRoleTxt">角色</string>
+        <string name="ud_userPhoneTxt">手机</string>
+        <string name="ud_userStatusTxt">状态</string>
+        <string name="ud_userCurrentAccount">当前账号: </string>
+        <string name="ud_userList">本店账号列表</string>
+
+        <!-- user_management.xml -->
+
+
+        <string name="um_ChangeBossAccountError">您目前的登录账号不是老板角色，请注销账号后重新以老板账号登录！</string>
+
+        <string name="um_DisplayAccount">显示账号</string>
+        <string name="um_LogOut">注销账号</string>
+        <string name="um_usermanagement">用户管理</string>
+
+        <!-- userManagement.java -->
+        <string name="umj_newEmployeeAccount">新建员工</string>
+        <string name="umj_DisplayAccount">显示本店账号</string>
+        <string name="umj_changePassword">修改密码</string>
+
+        <!-- configuration.xml -->
+        <string name="cf_introDialog">使用入门设置</string>
+        <string name="cf_isEnableNot">是否启用使用入门</string>
+        <string name="cf_Enable">启用</string>
+        <string name="cf_Disable">停用</string>
+
+        <string name="cf_introStep_notice">您可以在设置中找回使用入门</string>
+        <string name="cf_introStep_cancel">取消</string>
+        <string name="cf_introStep_pre">下一步</string>
+        <string name="cf_introStep_0">第一步</string>
+        <string name="cf_introStep_1">第二步</string>
+        <string name="cf_introStep_2">第三步</string>
+        <string name="cf_introStep_3">第四步</string>
+        <string name="cf_introStep_4">马上使用</string>
+
+        <string name="cf_introStep_0_title">使用入门：欢迎您使用来钱快进销存</string>
+        <string name="cf_introStep_1_title">使用入门（1/4）：基础数据</string>
+        <string name="cf_introStep_2_title">使用入门（2/4）：采购进货</string>
+        <string name="cf_introStep_3_title">使用入门（3/4）：销售出货</string>
+        <!-- <string name="cf_introStep_4_title">声明</string> -->
+        <string name="cf_introStep_4_title">使用入门（4/4）：帮助和同步</string>
+
+        <string name="cf_introStep_0_TXT">尊敬的用户，您好!\n\n我们将通过四步帮助您快速入门，让我们马上开始吧！\n\n*: 您可以在设置中选择是否需要使用入门。</string>
+
+        <string name="cf_introStep_1_TXT">请您在基础数据中，选择商品，新建您的商品数据。\n\n您也可以通过网页版（http://web.91laiqian.com）来批量导入数据。
+	</string>
+
+        <string name="cf_introStep_2_TXT">请您在采购中，选择采购，向您的仓库中进货。\n\n在采购的“添加商品”中，您可以通过扫描条码的方式来录入。
+	</string>
+
+        <string name="cf_introStep_3_TXT">请您在销售中，选择销售，录入销售单据。\n\n应收款可以通过收款来回收，也可以在报表中查看。
+	</string>
+
+        <string name="cf_introStep_4_TXT">请您在设置中，选择帮助，来了解来钱快的功能和使用说明。\n\n您可以通过电脑同步，向网页版（http://web.91laiqian.com）上传和下载数据，并和员工共享数据。
+	</string>
+
+        <string name="cf_BusinessSettingTitle">业务设置</string>
+        <string name="cf_isPaidorNot">默认应收和应付选择</string>
+        <string name="cf_isPaid">已收款/已付款</string>
+        <string name="cf_isNotPaid">未收款/未付款</string>
+        <!--
+        <string name="cf_defaultWay_title">默认 库存进出 方式 </string>
+        <string name="cf_defaultWay_summary">设置卖出/进货页面的第一个按钮 </string>
+        <string name="cf_defaultWay_dialog_title">默认方式 </string>
+         -->
+
+        <string name="cf_LogOnTitle">登录设置 </string>
+        <string name="cf_LogonAutoOrNot">自动登录 </string>
+        <string name="cf_LogonAuto">是的，以后登录无需输入用户名和密码 </string>
+        <string name="cf_NotLogonAuto">不是，每次登录都需输入密码 </string>
+
+        <string name="cf_DataRetentionTitle">数据设置</string>
+        <string name="cf_DataRetentionPeriodTitle">本地数据保留天数设置</string>
+        <string name="cf_DataRetentionSummary">设置完成后请重新登录</string>
+        <string name="cf_DataRetentionPeriod_0">保留最近1天的数据</string>
+        <string name="cf_DataRetentionPeriod_1">保留最近7天的数据</string>
+        <string name="cf_DataRetentionPeriod_2">保留最近15天的数据</string>
+        <string name="cf_DataRetentionPeriod_3">保留最近30天的数据</string>
+        <string name="cf_DataRetentionPeriod_4">保留最近90天的数据</string>
+        <string name="cf_DataRetentionPeriod_5">保留最近180天的数据</string>
+        <string name="cf_DataRetentionPeriod_6">保留最近360天的数据</string>
+        <string name="cf_DataRetentionPeriod_7">保留所有数据</string>
+
+        <string name="cf_DecimalPointSettingTitle">数字显示的小数点设置</string>
+        <string name="cf_DecimalPointSettingDialogTitle">显示小数点后几位数字</string>
+
+        <string name="allowMinusStockTitle">负库存销售</string>
+        <string name="cf_allowMinusStockTitle">负库存功能已启用</string>
+        <string name="cf_notAllowMinusStockTitle">负库存功能已关闭</string>
+
+        <string name="isItemExpanded">在多笔清单中显示细目</string>
+        <string name="cf_isItemExpanded">显示</string>
+        <string name="cf_isNotItemExpanded">不显示</string>
+
+        <string name="isZeroStockContained">仓库库存中显示零库存和负库存</string>
+        <string name="cf_ZeroStockContained">显示</string>
+        <string name="cf_ZeroStockNotContained">不显示</string>
+
+        <string name="historyPriceTitle">启用上次客户销售价</string>
+        <string name="cf_getHistoryPrice">是, 销售时启用</string>
+        <string name="cf_notGetHistoryPrice">否,使用商品中设定的销售价</string>
+
+
+
+        <string name="PurchaseHistoryPriceTitle">启用上次供应商采购价</string>
+        <string name="cf_getPurchaseHistoryPrice">是, 采购时启用</string>
+        <string name="cf_notGetPurchaseHistoryPrice">否,使用商品中设定的采购价</string>
+
+        <string name="showGlobalProductTypeTitle">显示默认的商品类型</string>
+        <string name="cf_showGlobalProductType">是, 显示系统默认的商品类型</string>
+        <string name="cf_notshowGlobalProductType">否,只显示自定义的商品类型</string>
+
+
+        <string name="DailyReportTitle">是否在通知栏显示每日报表</string>
+        <string name="cf_showDailyReport">是, 显示每日报表</string>
+        <string name="cf_notShowDailyReport">否,不显示每日报表</string>
+
+        <string name="cf_sortTitle">排序设置</string>
+        <string name="cf_BPartnerSortTitle">往来单位排序设置</string>
+        <string name="cf_BPartnerSortSummary">可按拼音和编号排序</string>
+        <string name="cf_BPartnerSort_by_PinYin_asc">按拼音升序排序</string>
+        <string name="cf_BPartnerSort_by_Number_asc">按编号升序排序</string>
+
+
+        <!-- 主界面的菜单项 -->
+        <string name="mn_Exit">退出</string>
+        <string name="mn_Charge">购买</string>
+        <string name="mn_Feedback">建议反馈</string>
+        <string name="mn_About">关于</string>
+        <string name="mn_Help">帮助</string>
+        <string name="mn_configuration">业务设置</string>
+
+        <!-- charge.xml -->
+        <string name="ch_Title">充值管理</string>
+        <string name="ch_saveButton">提交</string>
+        <string name="ch_phoneCardCharge">手机卡充值</string>
+        <string name="ch_Amount">充值金额 </string>
+        <string name="ch_ChargeType">充值类型 </string>
+        <string name="ch_ChargeTypeValue1">手机充值卡充值</string>
+        <string name="ch_CardType">充值卡类型 </string>
+        <string name="ch_CardType1">移动神州行卡</string>
+        <string name="ch_CardType2">联通卡</string>
+        <string name="ch_CardType3">电信卡</string>
+        <string name="ch_DisplayTitle">充值记录清单</string>
+        <string name="ch_ChargeDate">充值时间</string>
+        <string name="ch_ChargeID">充值订单号</string>
+        <string name="ch_ChargeAmount">充值金额      </string>
+        <string name="ch_ChargeUserName">货币</string>
+        <string name="ch_displayChannelreocrd">查询</string>
+        <string name="ch_BalanceAmountLabel">余额</string>
+
+        <string name="ch_CardNumber">充值卡序号</string>
+        <string name="ch_CardPassword">充值卡密码</string>
+        <string name="ch_CardValue">充值卡面额</string>
+        <string name="ch_CardValue1">10 元</string>
+        <string name="ch_CardValue2">20 元</string>
+        <string name="ch_CardValue3">30 元</string>
+        <string name="ch_CardValue4">50 元</string>
+        <string name="ch_CardValue5">100 元</string>
+        <string name="ch_CardValue6">200 元</string>
+        <string name="ch_CardValue7">300 元</string>
+
+
+        <string name="ch_DataSendSuccess">充值请求已经提交成功，请等待服务器处理.....</string>
+        <string name="ch_DataSendFail">充值请求提交失败，请检查网络是否可用，程序版本，或者打电话给全国客服：0571-28130038</string>
+        <string name="ch_updateFail">充值在易宝支付平台处理失败，请检查卡序列号或者是卡密码；</string>
+        <string name="ch_updateSuccess">充值已成功处理;</string>
+        <string name="ch_updateSuccess2">充值金额:</string>
+        <string name="ch_updateSuccess3">您的当前余额是：</string>
+        <string name="ch_NetworkIsNotAvailable">无法连接到网络，请打开无线网络或者通信网络.</string>
+        <string name="ch_NoInputNull">请确保所有输入字段都有值</string>
+        <string name="ch_AmountNotEqual">充值卡面额和充值金额不等，请确保他们一致</string>
+        <string name="ch_chargeQuestion">充值遇到问题? 敬请联系客服---</string>
+        <!-- Charge.java -->
+        <string name="chj_alipay">手机支付宝充值</string>
+        <string name="chj_card">手机充值卡直充(支持全网用户)</string>
+        <!-- <string name="chj_PayPal">PayPal </string> -->
+        <string name="chj_PayPalAmountLabel">充值金额 </string>
+        <string name="chj_query">用户充值查询</string>
+        <string name="chj_synchronize">网站充值同步</string>
+        <string name="chj_UnionPay">银联支付(支持大多数银行卡)</string>
+        <!-- 机锋SDK短信充值 -->
+        <!-- product_type_list.xml -->
+        <string name="ptl_newProductTypeLabel">新建子类型</string>
+        <string name="ptl_productTypeSearchHint">请输入商品类型</string>
+
+        <!-- product_type_details.xml -->
+        <string name="pt_productTypeTxt">分类名称</string>
+        <string name="pt_submitButton">保存</string>
+        <string name="pt_deleteButtonTxt">删除</string>
+        <string name="pt_productTypeDescTxt">商品类型描述：</string>
+        <string name="pt_autoID">自动编号</string>
+        <string name="pt_productTypeHint">请输入商品类型</string>
+        <string name="pt_productTypeDescHint">请输入商品类型描述</string>
+        <string name="pt_productStatasHint">请输入商品状态描述</string>
+
+        <!-- productTypeDetails.java -->
+        <string name="ptj_submit_success">商品类型已经提交</string>
+        <string name="ptj_submit_fail">提交失败！\n您只能修改您自己提交的商品类型</string>
+        <string name="ptj_delete_success1">商品类型 \'.</string>
+        <string name="ptj_delete_success2">\'  已经被删除.</string>
+
+
+
+        <!--capture.xml的值-->
+        <string name="barcodeLabel">条码：</string>
+        <string name="bizTypeLabel">类型</string>
+        <string name="productLabel">商品：</string>
+        <string name="amountLabel">数量：</string>
+        <string name="unitPriceLabel">单价：</string>
+        <string name="totalPriceLabel">总价：</string>
+        <string name="commentLabel">备注：</string>
+        <string name="paidLabel">已收款</string>
+        <string name="notPaidLabel">未收款</string>
+        <string name="paidLabel1">已付款</string>
+        <string name="notPaidLabel1">未付款</string>
+        <string name="submitButton">提交并继续扫描</string>
+        <string name="cancelButton">取消</string>
+        <string name="backButton">返回</string>
+
+        <string name="button_add_calendar">Add to calendar</string>
+        <string name="button_add_contact">Add contact</string>
+        <string name="button_back">Back</string>
+        <string name="button_book_search">Book Search</string>
+        <string name="button_cancel">Cancel</string>
+        <string name="button_custom_product_search">Custom search</string>
+        <string name="button_dial">Dial number</string>
+        <string name="button_done">Done</string>
+        <string name="button_email">Send email</string>
+        <string name="button_get_directions">Get directions</string>
+        <string name="button_mms">Send MMS</string>
+        <string name="button_ok">OK</string>
+        <string name="button_open_browser">Open browser</string>
+        <string name="button_product_search">Product Search</string>
+        <string name="button_search_book_contents">Search contents</string>
+        <string name="button_share_by_email">Share via email</string>
+        <string name="button_share_by_sms">Share via SMS</string>
+        <string name="button_show_map">Show map</string>
+        <string name="button_sms">Send SMS</string>
+        <string name="button_web_search">Web search</string>
+        <string name="button_wifi">Connect to Network</string>
+        <string name="msg_buggy">This device has known bugs that cause barcode scanning problems. For more information, visit http://code.google.com/p/zxing/wiki/FrequentlyAskedQuestions</string>
+        <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+        <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+        <string name="msg_default_mms_subject">Hi</string>
+        <!-- <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string> -->
+        <string name="msg_default_status">为保证正常扫描，您的手机需要支持变焦和自动对焦功能\n请将条码置于约10厘米外，并在屏幕正中扫描</string>
+        <string name="msg_google_shopper_missing">Google Shopper is not installed</string>
+        <string name="msg_install_google_shopper">Google Shopper combines barcode scanning with online and local prices, reviews and more without opening the browser. Would you like to try it?</string>
+        <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+        <string name="msg_not_our_results">You are leaving this application. The search results you will see are not related to this application.</string>
+        <string name="msg_share_subject_line">Here\'s the contents of a barcode I scanned</string>
+        <string name="preferences_actions_title">When a barcode is found\u2026</string>
+        <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+        <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+        <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+        <string name="preferences_custom_product_search_summary">Use as a placeholder for the product ID, and for format</string>
+        <string name="preferences_custom_product_search_title">Custom search URL</string>
+        <string name="preferences_decode_1D_title">Decode 1D barcodes</string>
+        <string name="preferences_decode_Data_Matrix_title">Decode Data Matrix</string>
+        <string name="preferences_decode_QR_title">Decode QR Codes</string>
+        <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+        <string name="preferences_front_light_title">Use front light</string>
+        <string name="preferences_general_title">General settings</string>
+        <string name="preferences_play_beep_title">Beep</string>
+        <string name="preferences_result_title">Result settings</string>
+        <string name="preferences_scanning_title">When scanning for barcodes\u2026</string>
+        <string name="preferences_vibrate_title">Vibrate</string>
+        <string name="result_address_book">Found contact info</string>
+        <string name="result_calendar">Found calendar event</string>
+        <string name="result_email_address">Found email address</string>
+        <string name="result_geo">Found geographic coordinates</string>
+        <string name="result_isbn">Found book</string>
+        <string name="result_product">Found product</string>
+        <string name="result_sms">Found SMS address</string>
+        <string name="result_tel">Found phone number</string>
+        <string name="result_text">Found plain text</string>
+        <string name="result_uri">Found URL</string>
+        <string name="result_wifi">Found Wifi Configuration</string>
+        <string name="wifi_ssid_label">Network Name</string>
+        <string name="wifi_type_label">Type</string>
+
+
+        <!-- networkUpdateService.java -->
+        <string name="nus_backup">来钱快正在帮助您备份数据……</string>
+        <string name="nus_noti_title">来钱快</string>
+        <string name="nus_backup_data">网络同步备份数据中……</string>
+        <string name="nus_download_apk">来钱快正在下载更新程序中……</string>
+        <string name="nus_pls_update">请更新您的来钱快程序包</string>
+        <string name="nus_download_finished">下载完成，请更新您的来钱快程序包！</string>
+        <string name="nus_network_disconnect">当前网络不可用，请确保打开手机上网功能！</string>
+        <string name="nus_network_connected">网络已打开！</string>
+
+        <!-- businessPartner.java -->
+        <string name="bp_titlebar_txt">往来单位信息</string>
+        <string name="bp_bPartnerSearchHint">往来单位</string>
+        <string name="bp_CustomerSearchLabel">客户</string>
+        <string name="bp_SupplierSearchLabel">供应商</string>
+        <string name="bp_newbPartner">新建</string>
+        <string name="bp_companyTitle">一般信息</string>
+        <string name="bp_numberTxt">编号 </string>
+        <string name="bp_partnerTypeLabel">伙伴类型 </string>
+        <string name="bp_vendorLabel">供应商 </string>
+        <string name="bp_customerLabel">客户 </string>
+        <string name="bp_nameTxt">名称 </string>
+        <string name="bp_addressLabel">地址 </string>
+        <string name="bp_contactTitle">联系方式 </string>
+        <string name="bp_contactPersonLabel">联系人 </string>
+        <string name="bp_FixedLineLabel">固定电话 </string>
+        <string name="bp_MobileLabel">移动电话 </string>
+        <string name="bp_emailLabel">邮件 </string>
+        <string name="bp_IMLabel">QQ/MSN </string>
+        <string name="bp_FAXLabel">传真 </string>
+        <string name="bp_MemoLabel">备注 </string>
+        <string name="bp_createBparterMsg1">往来单位  \'</string>
+        <string name="bp_createBparterMsg2">\' 已经被创建.</string>
+        <string name="bp_updateBparterMsg1">往来单位  \'</string>
+        <string name="bp_updateBparterMsg2">\' 已经被更新.</string>
+        <string name="bp_deleteBparterMsg1">往来单位   \'</string>
+        <string name="bp_deleteBparterMsg2">\' 已经被删除.</string>
+        <string name="bp_bparterInputError">请输入必填字段</string>
+        <string name="bp_bparterTypeInputError">请选择客户或供应商</string>
+        <string name="bp_update_pinyin">现在正在更新往来单位的拼音，请在10分钟内不要退出来钱快</string>
+        <string name="bp_update_pinyin_success">往来单位的拼音更新成功,现在您可以用往来单位名称的拼音进行检索</string>
+
+        <string name="od_updateBtnTxt">更新</string>
+
+        <!-- HelpDisplay.java -->
+        <string name="help_no_content">此目录还没有内容</string>
+
+        <!--InAppBillingEntry.java -->
+
+
+        <!-- The following are reserved skus defined by Market for testing. -->
+
+        <string name="nDbTemplateID">1012</string>
+
+        <!-- warehouse.java  -->
+        <string name="wh_newBtnLabel">新建</string>
+        <string name="wh_nameTxt">仓库名称</string>
+        <string name="wh_nameTxt1">仓库名称</string>
+        <string name="wh_DescriptionTxt">仓库描述</string>
+        <string name="wh_numberTxt">仓库编号</string>
+        <string name="wh_addressLabel">仓库地址</string>
+        <string name="wh_SearchHint">仓库名</string>
+        <string name="wh_defaultWarehouseName">总库</string>
+        <string name="wh_defaultWarehouseNumber">0001</string>
+        <string name="wh_defaultWarehouseNotice">请勿删除此仓库，否则会导致出错</string>
+        <string name="wh_defaultWarehouseNoDeletionNotice">此仓库不能删除</string>
+        <string name="initialWarehouseStockMsg">您没有维护仓库，请在主界面点击仓库维护图标</string>
+        <string name="wh_moveOutWarehouse">出货仓库</string>
+        <string name="wh_moveInWarehouse">入货仓库</string>
+
+
+        <!-- warehouse_details.java  -->
+        <string name="wmd_defaultWarehouse_MoveIn">默认进货仓库</string>
+        <string name="wmd_defaultWarehouse_MoveOut">默认出库仓库 </string>
+        <string name="wh_deleterMsg1">仓库   \'</string>
+        <string name="wh_deleterMsg2">\' 已经被删除.</string>
+        <string name="wh_noWarehouseMsg">没有选择仓库</string>
+        <string name="wh_noInputMsg">请输入仓库名</string>
+        <string name="wh_updateMsg1">仓库   \'</string>
+        <string name="wh_updateMsg2">\' 已经被更新.</string>
+
+        <string name="wh_productLabel">商品   </string>
+        <string name="wh_warehouseLabel">仓库  </string>
+        <string name="wh_searchBtnTxt">查询 </string>
+        <string name="wh_cleanSearchTxt">清空筛选条件 </string>
+
+        <string name="whs_qtyTitle">数量 </string>
+        <string name="whs_PriceTitle">单价 </string>
+        <string name="whs_amountTitle">金额 </string>
+        <string name="wms_TotalAmountTitle">总金额</string>
+        <string name="wms_TotalQtyTitle">总数量</string>
+
+        <!-- stockMove.java  -->
+        <string name="sm_moveBtnLabel">开始移库</string>
+        <string name="sm_listLabel"><u>移库记录</u></string>
+
+        <string name="smd_sourceTxt">当前仓库 </string>
+        <string name="smd_targetTxt">目标仓库 </string>
+        <string name="smd_productTxt">商品</string>
+        <string name="smd_qtyLabel">数量</string>
+        <string name="smd_inputError">请输入当前仓库、目标仓库、商品、数量字段</string>
+        <string name="smd_moveSuccessMsg">移库操作已经成功. </string>
+        <string name="smd_movefailedMsg">移库失败，请检查输入的数据是否正确</string>
+        <string name="smd_noEnoughStock">当前仓库中库存不足，数量为 </string>
+        <string name="smd_moveTitle">移库 </string>
+        <string name="smd_memoLabel">备注 </string>
+        <string name="stock_warehouseTitle">仓库: </string>
+        <string name="stock_inventorySearchHint">条库存记录,请开始搜索</string>
+        <string name="stock_noTheSameWarehouse">仓库不能为同一个</string>
+
+
+
+
+        <!-- Sales.java  -->
+        <string name="sales_NewBtnLabel">新建订单</string>
+        <string name="sales_scanBtnLabel">扫描 </string>
+        <string name="sale_ListBtnLabel"> 订单清单 </string>
+        <string name="sales_configutionBtLabel">配置</string>
+        <string name="sales_smt_orderNoLabel">单据号</string>
+        <string name="sales_smt_CustomerLabel">客户 </string>
+        <string name="sales_smt_QuantityLabel">数量 </string>
+        <string name="sales_smt_priceLabel"> 单价</string>
+        <string name="sales_smt_AmountLabel">金额</string>
+        <string name="sales_searchHint">单据号或往来单位或商品</string>
+
+        <!-- Sales_new.java  -->
+        <string name="sales_new_OrderNoLabel">销售单号</string>
+        <string name="sales_new_bpartnerLabel">往来单位</string>
+        <string name="sales_new_contactMobileLabel">移动电话</string>
+        <string name="sales_new_discountLabel">折扣</string>
+        <string name="sales_new_itemNoLabel">细目编号</string>
+        <string name="sales_new_barcodeLabel">条码</string>
+        <string name="sales_new_productLabel">商品</string>
+        <string name="sales_new_qtyLabel">数量</string>
+        <string name="sales_new_netPriceLabel">销售价</string>
+        <string name="sales_new_AmountLabel">金额</string>
+        <string name="sales_new_commentLabel">备注</string>
+        <string name="sales_new_item_commentLabel">细目备注</string>
+        <string name="sales_new_deleteLabel">删除 </string>
+        <string name="sales_new_tempSaveAndContinueLabel">暂存并继续 </string>
+        <string name="sales_new_itemTxt">添加商品 </string>
+        <string name="sales_new_item_next_Txt">继续添加商品 </string>
+        <string name="sales_new_noItem"> 此订单没有商品，请先添加商品。</string>
+        <string name="sales_new_orderCreatedSuccess1"> 订单  </string>
+        <string name="sales_new_orderCreatedSuccess2"> \n已经提交成功。</string>
+        <string name="sales_new_inputNecessaryHeaderValueMsg"> 请输入订单号</string>
+        <string name="sales_new_OrderAmountLabel">应收金额</string>
+        <string name="sales_new_OrderReceivedLabel">实收金额</string>
+        <string name="sales_new_notEnoughStock"> 仓库中库存数量不足。 </string>
+        <string name="sales_new_continue_tips"> 商品已添加，请继续. </string>
+        <string name="sales_new_exit_all">温馨提示</string>
+        <string name="sales_new_exit_confirm">您要退出当前页面？您输入的数据将丢失</string>
+        <string name="sales_new_ok">退出</string>
+        <string name="sales_new_cancel">取消</string>
+        <string name="sales_new_orderExisting">单号已存在,请检查!</string>
+        <string name="sales_new_numberFormatError">转换为数值时出错</string>
+        <string name="sales_new_history_price_hint">此客户的最近售价为: </string>
+        <string name="purchase_new_history_price_hint">此供应商的最近采购价为: </string>
+        <string name="sales_new_nobparter_error"> 没有全部收款, 必须输入欠款的往来单位</string>
+
+        <string name="sales_return_create_orderNo">退货单号</string>
+        <string name="sales_return_create_OrderAmountLabel">应退</string>
+        <string name="sales_return_create_OrderReceivedLabel">实退</string>
+        <string name="sales_return_create_OrderDueAmountLabel">未退</string>
+        <string name="sales_return_create_netPriceLabel">退货价</string>
+        <string name="sales_return_create_AmountLabel">退货金额</string>
+
+
+
+        <!-- Sales_change.java  -->
+        <string name="sales_change_OrderNoLabel"> 销售单号</string>
+        <string name="sales_change_contactMobileLabel">移动电话</string>
+        <string name="sales_change_discountLabel">折扣</string>
+        <string name="sales_change_itemNoLabel">细目编号</string>
+        <string name="sales_change_barcodeLabel">条码</string>
+        <string name="sales_change_productLabel">商品</string>
+        <string name="sales_change_qtyLabel">数量</string>
+        <string name="sales_change_netPriceLabel">销售价</string>
+        <string name="sales_change_AmountLabel">金额</string>
+        <string name="sales_change_commentLabel">备注</string>
+        <string name="sales_change_deleteLabel">删除  </string>
+        <string name="sales_change_updateLabel"> 更新 </string>
+        <string name="sales_change_order"> 订单  </string>
+        <string name="sales_change_orderUpdatedSuccess"> 已经更新成功。</string>
+        <string name="itemDeleted"> 此行项目已经被删除 。</string>
+        <string name="headerDeleted"> 已经被删除。</string>
+        <string name="sales_change_deleteItemDetails"> 整个订单将被删除，你确定要删除吗？ </string>
+        <string name="headerDeleteCancelled"> 删除操作失败,如果当前仓库库存数量小于单据中的数量，则不能删除单据。</string>
+
+
+        <!-- Purchases.java  -->
+
+        <string name="purchases_NewBtnLabel">新建订单</string>
+        <string name="purchases_scanBtnLabel">扫描 </string>
+        <string name="purchases_configutionBtLabel">配置</string>
+        <string name="purchases_smt_orderNoLabel">订单号</string>
+        <string name="purchases_smt_ProductNameLabel">商品</string>
+        <string name="purchases_smt_QuantityLabel">数量</string>
+        <string name="purchases_smt_priceLabel"> 价格 </string>
+
+
+        <!-- Purchases_new.java  -->
+        <string name="purchases_new_OrderNoLabel">采购单号</string>
+        <string name="purchases_new_contactMobileLabel">移动电话</string>
+        <string name="purchases_new_discountLabel">折扣</string>
+        <string name="purchases_new_itemNoLabel">细目编号</string>
+        <string name="purchases_new_barcodeLabel">条码</string>
+        <string name="purchases_new_productLabel">商品</string>
+        <string name="purchases_new_qtyLabel">数量</string>
+        <string name="purchases_new_netPriceLabel">采购价</string>
+        <string name="purchases_new_AmountLabel">金额</string>
+        <string name="purchases_new_commentLabel">备注</string>
+        <string name="purchases_new_deleteLabel">删除 </string>
+        <string name="purchases_new_tempSaveLabel">暂存 </string>
+        <string name="purchases_new_itemTxt">细目 </string>
+        <string name="purchases_new_newItem"> 新建细目 </string>
+        <string name="purchases_new_submitButton"> 提交订单 </string>
+        <string name="purchases_new_noItem"> 此订单没有细目，请先创建细目</string>
+        <string name="purchases_new_orderCreatedSuccess1"> 订单  </string>
+        <string name="purchases_new_orderCreatedSuccess2"> 已经提交成功.</string>
+        <string name="purchases_new_inputNecessaryHeaderValueMsg"> 请输入订单号和仓库</string>
+        <string name="purchases_new_scanTxt">扫描 </string>
+        <string name="purchases_new_nobparter_error"> 没有全部付款, 必须输入欠款的往来单位</string>
+        <string name="purchases_return_new_nobparter_error"> 没有全部退款, 必须输入欠款的往来单位</string>
+
+        <!-- purchases_change.java  -->
+        <string name="purchases_change_headerTxt"> 抬头</string>
+        <string name="purchases_change_OrderNoLabel"> 订单号</string>
+        <string name="purchases_change_contactMobileLabel">移动电话</string>
+        <string name="purchases_change_discountLabel">折扣</string>
+        <string name="purchases_change_itemNoLabel">细目编号</string>
+        <string name="purchases_change_barcodeLabel">条码</string>
+        <string name="purchases_change_productLabel">商品</string>
+        <string name="purchases_change_qtyLabel">数量</string>
+        <string name="purchases_change_netPriceLabel">价格</string>
+        <string name="purchases_change_AmountLabel">金额</string>
+        <string name="purchases_change_commentLabel">备注</string>
+        <string name="purchases_change_deleteLabel">删除  </string>
+        <string name="purchases_change_itemTxt">细目 </string>
+        <string name="purchases_change_updateLabel"> 更新 </string>
+        <string name="purchases_change_itemupdate1"> 细目  </string>
+        <string name="purchases_change_itemupdate2">  已经更新。</string>
+        <string name="purchases_change_order"> 订单  </string>
+        <string name="purchases_change_orderUpdatedSuccess"> 已经更新成功。</string>
+        <string name="purchases_change_deleteItemDetails"> 整个订单将被删除，你确定要删除吗？ </string>
+
+        <!-- UnitList -->
+        <string name="ul_UnitShortNameLabel">名称</string>
+        <string name="ul_UnitFullNameLabel">描述 </string>
+        <string name="ud_shortNameTxt">单位名称</string>
+        <string name="ud_FullNameTxt">单位描述</string>
+
+        <string name="ud_Msg1"> 单位  </string>
+        <string name="ud_updateMsg2"> 已被更新 </string>
+        <string name="ud_updateMsg3"> 更新失败 </string>
+        <string name="ud_createMsg2"> 创建成功 </string>
+        <string name="ud_deleteMsg2"> 已被删除 </string>
+        <string name="ud_noInputMsg"> 请输入单位名称 </string>
+        <string name="ud_duplicateNameMsg"> 商品单位名称已存在,请修改名称 </string>
+        <string name="ud_duplicateProductTypeNameMsg"> 商品类型名称已存在,请修改名称 </string>
+        <string name="ud_defaultUnitNoDeletionMsg"> 默认系统单位，请不要删除 </string>
+        <string name="ud_ChooseUnitMsg"> 删除前请选择单位 </string>
+
+        <!-- InitializeData -->
+        <string name="id_deleteBusinessData"> 清空所有数据  </string>
+        <string name="id_deleteBusinessDataDetails">清空数据操作: \n当前店铺下的 <b>仓库/往来单位/商品/库存/交易记录</b>会全部被清空, 操作无法回复。\n\n确定清空数据吗？  </string>
+        <string name="id_confirmDeletion"> 再次确认，删除后数据无法回复.\n\n确认清空数据吗？  </string>
+        <string name="id_BusinessDataDeleted"> 清空数据操作成功。请使用上传功能更新服务器的数据.  </string>
+
+        <!-- Push Message -->
+
+
+        <string name="input_order_no_notice">请输入单据编号</string>
+        <string name="orderNo_setting">设置编号生成规则</string>
+        <string name="edit_orderNo">编辑单据编号</string>
+        <string name="orderno_confirm">确定</string>
+        <string name="order">单据</string>
+        <string name="order_create">新建</string>
+        <string name="orderlist"><u>历史</u></string>
+        <string name="ordersave">保存</string>
+        <string name="ordertempsave">暂存</string>
+        <string name="morefields"><u>更多字段</u></string>
+        <string name="move_down"><u>请往下滚动....</u></string>
+
+        <!-- Order No setting -->
+        <string name="open_autoOrderNo_settting">已启用自动生成订单号功能.</string>
+        <string name="close_autoOrderNo_settting">已关闭自动生成订单号功能.</string>
+        <string name="tip_number_string">编号不能大于10000</string>
+        <string name="context_menu_item_string">生成订单号</string>
+        <string name="tip_businesstype_toast_string">请输入业务类型</string>
+        <string name="business_type_text">订单类型</string>
+        <string name="user_name_text">用户名称</string>
+        <string name="order_number_text">订单编号</string>
+        <string name="auto_make_text">自动生成</string>
+        <string name="aet_order_number_rule_text">设置生成订单的规则</string>
+        <string name="tip_business_type_text">请输入业务类型</string>
+        <string name="ok_button_string">确定</string>
+        <string name="edit_order_number_rule_string">设置单据号规则</string>
+        <string name="auto_make_order_number_text">自动生成单据号</string>
+        <string name="business_type_string_text">业务类型</string>
+        <string name="date_time_text">日期 </string>
+        <string name="name_shout_text">区别号</string>
+        <string name="start_number_text">起始编号</string>
+        <string name="order_number_style_text">单据号示例: </string>
+        <string name="order_number_distinct_number_title">区别号: </string>
+        <string name="order_number_distinct_number_text">多个员工使用时，区分每个员\n\b工的单据号，建议使用员工姓名\n\b简称或者是手机号码后4位.</string>
+
+
+        <!-- incoming_of_payment -->
+        <string name="incoming_of_payment_inputNecessaryHeaderValueMsg">请输入单号, 往来单位</string>
+        <string name="incoming_of_payment_CreatedSuccess1">收款单</string>
+        <string name="incoming_of_payment_CreatedSuccess2">已生成</string>
+        <string name="incoming_of_payment_noItem">还未输入金额</string>
+        <string name="incoming_of_payment_itemTxt">关联销售单</string>
+        <string name="incoming_of_payment_AmountTxt">收款金额</string>
+        <string name="incoming_of_payment_RefOrderNoLabel">关联\n销售单号</string>
+        <string name="incoming_of_payment_HeaderTextLabel">备注</string>
+        <string name="incoming_of_payment_sOrderNo">收款单号</string>
+        <string name="payment_sOrderNo">付款单号</string>
+        <string name="payment_itemTxt">关联采购单</string>
+        <string name="payment_AmountTxt">付款金额</string>
+        <string name="payment_RefOrderNoLabel">关联\n采购单号</string>
+        <string name="incoming_of_payment_hint">往来单位或单号</string>
+        <string name="incoming_of_payment_no_bp">请选择往来单位</string>
+        <string name="incoming_of_payment_no_order_no">请输入往来单位</string>
+
+        <!--incoming_of_payment_partner  -->
+        <string name="receivable_Static">应收查询</string>
+        <string name="payable_Static">应付查询</string>
+        <string name="receivable_order_Static">订单查询</string>
+        <string name="payable_order_Static">订单查询</string>
+        <string name="receivable_order_title">订单号</string>
+        <string name="receivable_partner_customer">客户</string>
+        <string name="receivable_partner_Amount">应收</string>
+        <string name="receivable_partner_Received">已收</string>
+        <string name="receivable_partner_DueAmount">未收</string>
+
+        <string name="payable_partner_Amount">应付</string>
+        <string name="payable_partner_Received">已付</string>
+        <string name="payable_partner_DueAmount">未付</string>
+
+        <string name="sync_uploadSuccess">选择时间段内的数据上传成功</string>
+        <string name="sync_hint">上传：将手机端的数据发送到网页版.\n\n下载：将网页版的数据下载到手机.\n\n网页版地址：http://web.91laiqian.com</string>
+
+        <!-- sync.xml -->
+        <string name="sync_setting">设置</string>
+        <string name="sync_lottery_title">新手任务已完成</string>
+        <string name="sync_lottery_content">您获得了一次2天内赢取三星Galaxy Note 3的机会，请您使用电脑前往网页版（http://web.91laiqian.com）抽奖。\n\n您的抽奖码为：\n\n</string>
+        <string name="sync_lottery_confirm">好，马上去</string>
+        <string name="sync_lottery_negative">下次再说</string>
+        <string name="sync_ing">正在同步</string>
+        <string name="sync_stop_ing">正在结束当前同步</string>
+        <string name="pos_sync_success">同步成功</string>
+        <string name="pos_sync_fail">同步失败</string>
+        <string name="pos_sync_fail_by_has_clean">您已经清空过数据,但服务器状态未更新</string>
+        <string name="pos_sync_fail_by_need_clean">同步数据失败--需要清空数据</string>
+        <string name="pos_sync_upload_fail_by_network">同步数据失败--网络未连接，请连接无线网络或插入网线</string>
+        <string name="pos_sync_upload_fail_by_build_file">同步数据失败--生成文件失败</string>
+        <string name="pos_sync_upload_fail_by_compress_file">同步数据失败--压缩文件失败</string>
+        <string name="pos_sync_upload_fail_by_encrypt_file">同步数据失败--加密文件失败</string>
+        <string name="pos_sync_upload_fail_by_upload_file">同步数据失败--上传文件失败</string>
+        <string name="pos_sync_upload_fail_by_time_out">同步数据失败--网络不通畅,上传文件失败</string>
+        <string name="pos_sync_upload_fail_by_server_handles_data"> 同步数据失败--服务器处理上传数据失败</string>
+        <string name="pos_sync_download_fail"> 同步数据失败--下载文件失败</string>
+        <string name="pos_sync_download_fail_by_decrypt_file"> 同步数据失败--解密下载文件失败</string>
+        <string name="pos_sync_download_fail_by_decompress_file"> 同步数据失败--解压下载文件失败</string>
+        <string name="pos_sync_download_fail_by_open_decompressed_file"> 同步数据失败--打开下载解压文件失败</string>
+        <string name="pos_sync_download_fail_by_read_decompressed_file"> 同步数据失败--读取下载解压文件失败</string>
+        <string name="pos_sync_download_fail_by_table_data_merge"> 同步数据失败--表数据合并失败</string>
+
+        <string name="pos_sync_pb_split_1">1/3  切割上传数据\n总计</string>
+        <string name="pos_sync_pb_split_2">个数据表,成功处理第</string>
+        <string name="pos_sync_pb_split_3">个数据表中的第</string>
+        <string name="pos_sync_pb_split_4">个（总计</string>
+        <string name="pos_sync_pb_split_5">个）</string>
+        <string name="pos_sync_pb_upload_1">2/3 切割上传数据\n总计</string>
+        <string name="pos_sync_pb_upload_2">个数据,正在处理第</string>
+        <string name="pos_sync_pb_upload_3">个上传数据：</string>
+        <string name="pos_sync_pb_upload_4">k/</string>
+        <string name="pos_sync_pb_upload_5">k</string>
+        <string name="pos_sync_pb_download_1">3/3 处理下载数据\n正在处理下载数据：</string>
+        <string name="pos_sync_stop">正在结束当前同步</string>
+
+        <string name="no_need_to_update_the_data"> 暂无需要更新的数据</string>
+        <string name="auto_upload_close_msg">自动同步，能够降低数据丢失的风险，是否确定关闭？</string>
+        <string name="auto_upload_close_title">温馨提示</string>
+        <string name="crash_method_title">温馨提示</string>
+        <string name="crash_method_msg">十分抱歉，来钱快意外终止，我们会及时处理您的问题。</string>
+        <string name="crash_method_btn">好的</string>
+        <!-- report -->
+        <string name="statistics_start_time">开始日期:</string>
+        <string name="statistics_client">客户</string>
+
+        <string name="statistics_staff">员工</string>
+        <string name="statistics_title_text1">查看你最近的盈利情况</string>
+        <string name="statistics_query_string">筛选</string>
+        <string name="statistics_query_condition">筛选条件</string>
+        <string name="statistics_detail_query_title">筛选条件(结果按交易时间降序排列)</string>
+        <string name="statistics_income_title">收入</string>
+        <string name="statistics_cost_title">成本</string>
+        <string name="statistics_margin_title">利润</string>
+        <string name="statistics_rate_title">毛利率(%)</string>
+        <string name="statistics_sum_title">总计</string>
+        <string name="statistics_product">商品</string>
+        <string name="statistics_time_string">日期范围：</string>
+        <string name="statistics_showbyday">按天显示</string>
+        <string name="statistics_showbymonth">按月显示</string>
+        <string name="statistics_button_text_by_product">按商品查看</string>
+        <string name="statistics_button_type">按分类查看</string>
+        <string name="statistics_received_text">已收</string>
+        <string name="statistics_should_received_text">应收</string>
+        <string name="statistics_not_received_text">未收</string>
+        <string name="statistics_should_paid_text">应付</string>
+        <string name="statistics_paid_text">已付</string>
+        <string name="statistics_not_paid_text">未付</string>
+        <string name="statistics_received_money">收款</string>
+        <string name="statistics_received_string">应收</string>
+        <string name="statistics_has_received_string">已收</string>
+        <string name="statistics_not_received_string">未收</string>
+        <string name="sales_report_details">销售明细</string>
+        <string name="purchase_report_details">采购明细</string>
+        <string name="statistics_receivable_detail">应收明细</string>
+        <string name="statistics_payable_detail">应付明细</string>
+        <string name="statistics_purchase_summary">合计</string>
+        <string name="statistics_purchase_amount">采购金额</string>
+        <string name="statistics_income_sum_title">总收入</string>
+        <string name="statistics_quantity_sum_title">总数量</string>
+        <string name="statistics_margin_sum_title">总利润</string>
+        <string name="statistics_quantity_item_title">数量</string>
+        <string name="statistics_filter_validate_time">请输入有效的时间范围</string>
+        <string name="statistics_filter_unreceived">只显示未收不为0的客户</string>
+        <string name="statistics_filter_unpayed">只显示未付不为0的供应商</string>
+
+
+
+        <!-- main_setting -->
+        <string name="main_setting_productTypeTitle">商品类型</string>
+
+        <!-- delete hint -->
+        <string name="deleteProductHint">删除商品须在网页版操作.</string>
+        <string name="deleteUnitHint">商品单位不允许删除.</string>
+        <string name="deleteProductTypeHint">商品类型不允许删除.</string>
+        <string name="deletePartnerHint">删除往来单位须在网页版操作.</string>
+        <string name="deleteWarehouseHint">删除仓库须在网页版操作.</string>
+
+        <!-- assemble -->
+        <string name="assemble_create_finishedgoodsLabel">组装成品</string>
+        <string name="assemble_create_itemTxt">添加组装部件</string>
+        <string name="assemble_create_componentLabel">组装部件</string>
+        <string name="assemble_create_qtyLabel">数量</string>
+        <string name="assemble_change_nodocumentMsg">未找到单据</string>
+        <string name="assemble_change_OrderNoLabel">组装单号</string>
+        <string name="assemble_change_OrderNoLabel2">拆卸单号</string>
+        <string name="assemble_list_search">单据号或成品或部件</string>
+        <string name="assemble_create_noComponent">请先添加部件, 没有部件</string>
+        <string name="assemble_create_FGnetPriceLabel">成品成本价</string>
+        <string name="assemble_create_component_netPriceLabel">部件成本价</string>
+        <string name="assemble_create_component_AmountLabel">部件金额</string>
+        <string name="assemble_create_noNecessaryinfo">请输入仓库,订单号,成品,数量,价格</string>
+        <string name="assemble_create_noHeaderinfo">请输入仓库,订单号</string>
+
+        <string name="dismantle_create_finishedgoodsLabel">拆卸成品</string>
+        <string name="dismantle_create_itemTxt">添加拆卸部件</string>
+        <string name="dismantle_create_componentLabel">拆卸部件</string>
+
+        <string name="assemble_list_finishedgoodsLabel">成品</string>
+        <string name="assemble_list_componentLabel">部件</string>
+
+
+        <!-- 首页的功能指导 -->
+
+        <!-- New Starter guide -->
+        <string name="new_starter_guide">新手入门</string>
+        <string name="start_now">马上开始</string>
+        <string name="new_starter_guide_title">新手任务</string>
+        <string name="new_starter_guide_text_view_txt">新手</string>
+        <string name="new_starter_guide_content">欢迎您使用来钱快！\n\n请跟随以上图标，完成新手任务，即可赢取三星Galaxy Note 3的抽奖机会。</string>
+        <string name="new_starter_guide_ok">马上去抢</string>
+        <string name="new_starter_guide_cancel">不需要</string>
+
+        <!-- Product change -->
+        <string name="product_change_qty_title">修改数量</string>
+        <string name="product_change_price_title">修改成本价</string>
+        <string name="product_create_stock_list">库存清单</string>
+        <string name="product_change_update_title">更新数量</string>
+        <string name="product_change_update_message">修改成本价之前，建议先从服务器下载最新的库存数量和价格,以确保调价的数据准确性。是否下载？</string>
+        <string name="product_change_download_button">下载更新</string>
+        <string name="product_change_not_download_button">已经更新过</string>
+        <string name="pc_stockPriceHint">成本价:采用加权平均法计算; 是商品多次采购价格的加权平均值,每次采购后,会自动加权平均\n\n支持同一商品在不同仓库下的有不同的成本价。</string>
+        <string name="pc_buyPriceHint">采购价:采购时,商品的采购价格会取此处填写的值; </string>
+        <string name="pc_salesPriceHint">销售价:销售时,商品的销售价格会取此处填写的值; </string>
+        <string name="pc_delete_product_message">删除商品时自动产生的盘点记录, 请勿修改;</string>
+        <string name="pc_product_change_message">修改商品数量时自动产生的记录.</string>
+        <string name="pc_product_price_change_message">修改商品价格时自动产生的记录.</string>
+        <string name="pc_delete_product_message_item">此商品以及所有仓库中的库存都将被清除, 确定删除吗?</string>
+        <string name="pc__change_price_check_price_qty">库存数量和价格均不能为0</string>
+        <string name="pc__change_price_warehouse_check_message">提交前必须先选择仓库</string>
+
+
+        <string name="update_new_version_access_record_fail">更新新版本窗口记录失败，请联系客服 010- 8099 2989</string>
+
+        <string name="auth_get_window_fail">您没有权限执行此操作，请联系老板获取此操作权限;</string>
+        <string name="stock_warehouse_warning_message1">当前仅显示 </string>
+        <string name="stock_warehouse_warning_message2">中库存数量不为0的商品 ;</string>
+        <string name="no_auth_for_stock_change">您没有权限修改仓库库存,请联系老板获取盘点权限以执行此操作;</string>
+
+        <string name="product_list_zeroHint">没有找到商品记录, 建议您: \n\r1. 点击 \"新建商品\" 按钮 创建商品; \n\r2. 前往网页版(web.91laiqian.com)批量导入您的商品; </string>
+        <string name="bp_list_zeroHint">没有找到往来单位记录, 建议您: \n\r1. 点击 \"新建\" 按钮 创建往来单位; \n\r2. 前往网页版(web.91laiqian.com)批量导入您的往来单位;\n\r3. 导入您的手机通讯录作为往来单位; </string>
+
+        <string name="user_phone_length_not_enough">您的手机账号长度必须大于7位</string>
+
+        <string name="sms_content_1"> 尊敬的</string>
+        <string name="sms_content_2"> 您好，您在</string>
+        <string name="sms_content_3"> 在</string>
+        <string name="sms_content_4"> 的订单共花费了</string>
+        <string name="sms_content_5"> 【来钱快进销存】</string>
+
+        <string name="contact_import_btn">导入</string>
+        <string name="import_contact">通讯录导入</string>
+        <string name="import_contact_notices">通讯录批量导入成功!</string>
+        <string name="import_pd_notice_title">温馨提示</string>
+        <string name="import_pd_notice_conetnt">联系人信息正在加载...</string>
+
+        <!--短信提醒功能-->
+        <string name="SmsPreferenceTitle">交易短信提醒设置</string>
+        <string name="SmssummaryOn">已开启交易短信提醒功能</string>
+        <string name="SmssummaryOff">已关闭交易短信提醒功能</string>
+        <string name="Smsdesc">销售短信提醒功能</string>
+        <string name="send_sms_quick">是否马上发送短信？</string>
+        <string name="sms_send_charge_notice">如需修改短信发送内容，请联系来钱快客服咨询！全国客服：0571-28130038</string>
+        <string name="sms_send_sucess_notice_1">本次短信发送成功</string>
+        <string name="sms_send_sucess_notice_2">条，失败</string>
+        <string name="sms_send_sucess_notice_3">条</string>
+        <string name="sms_send_content_1">您好，</string>
+        <string name="sms_send_honour">尊敬的</string>
+
+        <string name="sale_return">销售退货短信提醒功能</string>
+        <string name="sale_return_summaryOn">已开启销售退货短信提醒功能</string>
+        <string name="sale_return_summaryOff">已关闭销售退货短信提醒功能</string>
+
+        <string name="purches_new">采购短信提醒功能</string>
+        <string name="purches_new_summaryOn">已开启采购短信提醒功能</string>
+        <string name="purches_new_summaryOff">已关闭采购短信提醒功能</string>
+
+        <string name="purches_retun">采购退货短信提醒功能</string>
+        <string name="purches_retun_summaryOn">已开启采购退货短信提醒功能</string>
+        <string name="purches_retun_summaryOff">已关闭采购退货短信提醒功能</string>
+
+        <string name="send_time_month">月</string>
+        <string name="send_time_day">日</string>
+        <!-- 来电提醒功能 -->
+        <string name="CallInPreferenceTitle">来电提醒设置</string>
+        <string name="callInsummaryOff">已关闭来电提醒功能</string>
+        <string name="callInsummaryOn">已开启来电提醒功能</string>
+        <string name="callIndesc">是否开启来去电提醒功能</string>
+        <string name="call_in_laiqian">进入来钱快</string>
+        <string name="call_in_trade_deatail_1">查看最近交易明细(</string>
+        <string name="call_in_trade_deatail_2">笔)</string>
+        <string name="call_in_choose_name">请选择一个联系人</string>
+
+        <string name="callOutsummaryOff">已关闭去电提醒功能</string>
+        <string name="callOutsummaryOn">已开启去电提醒功能</string>
+        <string name="callOutdesc">去电提醒功能</string>
+
+        <string name="suspensionsummaryOff">已关闭客服悬浮窗</string>
+        <string name="suspensionsummaryOn">已开启客服悬浮窗</string>
+        <string name="suspension">客服悬浮窗</string>
+
+        <string name="call_in_unpaid_money">未付：</string>
+        <string name="call_in_unreceived_money">未收：</string>
+        <string name="call_in_receivable_money">应收：</string>
+        <string name="call_in_received_money">已收：</string>
+        <string name="call_in_paid_money">应付：</string>
+        <string name="call_in_paided_money">已付：</string>
+        <!-- 批量导入 -->
+        <string name="import_no_data_notice">您未选择任何数据,请选择要导入的数据</string>
+        <string name="impotr_contact_choose">请选择客户类型</string>
+        <string name="import_errors">批量导入通讯录过程中发生错误，请重试！</string>
+        <string name="import_update_notice">已导入，是否更新数据？</string>
+        <string name="import_no">未导入</string>
+        <string name="upload_response_network_ok">Network avaiable.</string>
+        <string name="call_send_error">无可用的手机号码，请检查该联系人信息后重试！</string>
+
+        <!-- auto upload time set -->
+        <string name="auto_upload_setting_info">自动上传设置</string>
+        <string name="auto_upload_summaryoff">已关闭自动上传功能</string>
+        <string name="auto_upload_summaryon">已开启自动上传功能</string>
+        <string name="auto_upload_title">开启自动上传功能</string>
+        <string name="auto_upload_time_set">自动上传时间设置</string>
+        <string name="DailyReport_time_set">每日报表显示时间设置</string>
+        <string name="auto_upload_notification_title">数据上传</string>
+        <string name="auto_upload_success_info">数据已上传成功！</string>
+        <string name="auto_upload_success_info_1">数据上传失败！</string>
+
+        <string name="sms_content_sale_return">销售退货订单金额</string>
+        <string name="purches_new_sms_1">在您处发生了一笔采购，金额为</string>
+        <string name="purches_new_sms_2">您好,</string>
+        <string name="purches_new_sms_3">在</string>
+        <string name="purches_return_sms_1">在您处发生了一笔采购退货，金额为</string>
+        <string name="importing_info">正在导入联系人信息，请稍后...</string>
+        <string name="sms_send_error">提醒短信发送失败！</string>
+        <string name="send_sms_success">已成功为您发送提醒短信！</string>
+        <string name="sms_send_mul1">接下来的</string>
+        <string name="sms_send_mul2">条短信都按此配置发送</string>
+        <string name="send_sms_bt">发送</string>
+        <string name="send_sms_bt_no">不发送</string>
+
+
+        <string name="KYCSSubmit_Txt">确定</string>
+
+        <string name="service_tel">客服</string>
+        <string name="service_platform_share">分享</string>
+        <string name="service_platform_help">帮助</string>
+        <string name="service_platform_weixin">微信</string>
+        <string name="weixin_share_label">微信分享</string>
+        <string name="share_weixin_label">微信</string>
+        <string name="share_weixin_friend_label">微信朋友圈</string>
+        <string name="share_weibo_label">腾讯微博</string>
+        <string name="share_sina_weibo_label">新浪微博</string>
+        <string name="share_sms_label">短信</string>
+        <string name="share_title">来钱快进销存</string>
+        <string name="share_content">嗨，#我正在使用来钱快#,它是我用过的最好用的进销存软件，可以帮你管生意管业务，推荐你试试</string>
+        <string name="share_content1">嗨，#我正在使用来钱快#,它是我用过的最好用的进销存软件，可以帮你管生意管业务，推荐你试试.</string>
+        <string name="share_sms_content">嗨，#我正在使用来钱快#,它是我用过的最好用的进销存软件，可以帮你管生意管业务，推荐你试试http://www.91laiqian.com/lqk</string>
+        <string name="share_sms_content1">嗨，#我正在使用来钱快#,它是我用过的最好用的进销存软件，可以帮你管生意管业务，推荐你试试.http://www.91laiqian.com/lqk</string>
+        <string name="share_friend_error">您的微信版本不支持朋友圈分享，请下载新的版本再试！</string>
+        <string name="share_weixin_error">您未安装微信，请安装后再试！</string>
+        <string name="weixin_help_not_install">您的手机尚未安装微信，是否需要安装？</string>
+        <string name="down_apk_url">http://www.91laiqian.com/lqk</string>
+        <string name="share_at_once">马上分享</string>
+
+
+        <string name="type_name_hint">请输入新的类别名</string>
+
+        <string name="call_in_notice_service_tel">来钱快客服</string>
+
+        <string name="type_ui_titlebar">商品类型</string>
+        <string name="type_new_otherType">新建子分类...</string>
+        <string name="type_new_first">新建一级分类...</string>
+        <string name="type_notice_null">请输入类型名</string>
+        <string name="type_notice_repeate">类型名已存在，请重新输入</string>
+        <string name="type_notice_new_success">新建类别成功！</string>
+        <string name="type_pd_title">温馨提示！</string>
+        <string name="type_notice_update_success">类别已更新</string>
+        <string name="type_notice_delete_err">请先删除子分类后再试！</string>
+        <string name="type_notice_del_1">您确定要删除[</string>
+        <string name="type_notice_del_2">]么？</string>
+        <string name="type_notice_del_ok">确定</string>
+        <string name="type_notice_del_cancle">取消</string>
+
+        <string name="type_del_ok">删除成功</string>
+        <string name="share_success">分享成功！</string>
+        <string name="share_cancle">取消分享！</string>
+        <string name="share_faild">分享失败！</string>
+        <string name="share_denied">权限被拒绝！</string>
+        <string name="share_unkown_error">未知错误！</string>
+
+        <string name="video1">来钱快产品介绍</string>
+        <string name="video2">来钱快产品优点</string>
+        <string name="video3">如何开始使用来钱快</string>
+        <string name="video4">来钱快如何计算成本价</string>
+        <string name="video5">商品销售时使用历史销售价</string>
+        <string name="video6">商品进货价和销售价</string>
+        <string name="video7">付款和收款</string>
+        <string name="video8">权限管理</string>
+
+        <string name="upload_response_problem">无法解决,请联系来钱快客服 0571-28130038</string>
+        <string name="upload_response_set">上传配置</string>
+        <string name="upload_response_net_no">无可用网络</string>
+        <string name="local_upload_success">本地上传数据成功</string>
+        <string name="local_upload_error">本地上传数据失败</string>
+        <string name="service_deal_error">服务器处理数据出错</string>
+        <string name="upload_service_deal_success">服务器数据处理成功</string>
+        <string name="upload_try_again">再传一次</string>
+        <string name="upload_wifi_ok">网络连接正常(WIFI网络)</string>
+        <string name="upload_net_mobile_ok">网络连接正常(移动网络)</string>
+        <string name="template_lable">模板</string>
+        <string name="auto_template_hint">请输入模板名字</string>
+        <string name="template_choose"><u>使用模板</u></string>
+        <string name="submit_save_template">提交并保存为模板</string>
+
+        <string name="download_data_title">下载所有数据</string>
+        <string name="download_data_message">您的手机上只有一部分数据, 是否从服务器下载所有的商品、库存、往来单位数据 ?</string>
+        <string name="dialog_next_time_notice">下次再说</string>
+        <string name="weixin_help_install">下载安装</string>
+
+        <string name="service_platform_online_video">在线视频</string>
+        <string name="service_platform_offline_doc">离线文档</string>
+        <string name="service_platform_help_wifi_no">当前网络环境不是WIFI环境，请切换至WIFI再试！</string>
+        <string name="service_platform_dialog_tip">温馨提示！</string>
+        <string name="service_platform_dialog_bt_ok">确定</string>
+        <string name="service_platform_help_ui_titlebar">帮助</string>
+        <string name="service_platform_share_sharing">正在分享...</string>
+        <string name="upload_setting_lable">自动同步</string>
+        <string name="upload_setting_time_set_lable">自动上传时间设置</string>
+        <string name="upload_setting_cycle_set_lable">自动上传周期</string>
+        <string name="upload_setting_cycle_set_unit">小时</string>
+        <string name="upload_response_auto_switch">" 设  置   "</string>
+        <string name="upload_response_net_set">设置网络</string>
+        <string name="upload_response_upload_again">再次上传</string>
+        <string name="soft_keyboard_calc_bt">计算器</string>
+        <string name="soft_keyboard_ok_bt">确定</string>
+        <string name="soft_keyboard_calc_clear">清除</string>
+        <string name="soft_keyboard_calc_del">删除</string>
+        <string name="all_yemplate_assemble_typename">组装</string>
+        <string name="all_template_dismantle_typename">拆卸</string>
+        <string name="all_template_sale_typename">销售</string>
+        <string name="all_template_saleReturn_typename">销售退货</string>
+        <string name="all_template_purchase_typename">采购</string>
+        <string name="all_template_purchaseReturn_typename">采购退货</string>
+        <string name="all_template_titlebar_text">模板</string>
+        <string name="all_template_new_btn">新建</string>
+        <string name="template_name_dialog_text">模板</string>
+        <string name="template_create_success">新建模板成功！</string>
+        <string name="template_create_error">新建模板失败！</string>
+        <string name="template_edit_success">修改模板成功!</string>
+        <string name="template_edit_error">修改模板失败！</string>
+        <string name="template_type_titlebar_text">模板类型</string>
+        <string name="template_use_time">次</string>
+        <string name="service_platform_share_lq_sinaweibo">关注来钱快新浪微博</string>
+        <string name="service_platform_share_lq_tencentweibo">关注来钱快腾讯微博</string>
+        <string name="product_type_edit">编辑</string>
+        <string name="product_type_edit_save">保存</string>
+        <string name="product_type_edit_delete">删除</string>
+
+
+        <string name="stock_check_areyouensure">确认清除当前的%1$d件商品吗？</string>
+        <string name="floathelper_weixin_maintaining">此功能正在维护...</string>
+
+        <string name="stock_check_ensure">确定</string>
+        <string name="stock_check_cancel">取消</string>
+        <string name="stock_check_fz_toast1">不能输入负数</string>
+        <string name="stock_check_accountpart">您已选择%1$d件商品，总数为%2$s</string>
+        <string name="stock_check_existednumber">现存数量</string>
+        <string name="stock_check_stockmovenumber">移库数量</string>
+        <string name="stock_check_number">盘点数量</string>
+        <string name="stock_check_inputstockmovenumber">请输入移库数量</string>
+        <string name="stock_check_proSelected_type_count"><u>您已选择0件商品，总数为0</u></string>
+        <string name="stock_check_prompt_textview">%1$d件商品将被选中</string>
+        <string name="stock_check_input_number">请输入数字</string>
+        <string name="assemble_new_goods">新建商品</string>
+        <string name="assemble_input_cost_price">成本价:</string>
+        <string name="smd_checkSuccessMsg">盘点操作已经成功. </string>
+        <string name="smd_checkfailedMsg">盘点失败</string>
+        <string name="all_check_input_number">请输入每个商品的数量</string>
+        <string name="stock_check_areyouensure_search">确认清除当前搜索出来的%1$d件商品吗？</string>
+        <string name="stock_check_close_scan">关闭</string>
+
+        <string name="prompt_time">数据比较多，保存需要%1$d分钟以上，确定提交吗?</string>
+        <string name="prodcut_type_delete_success">商品类型   %1$s  已经被删除</string>
+        <string name="prodcut_type_delete_fail">删除失败, 不允许删除</string>
+        <string name="choose_goods_firstly">请先选择商品</string>
+        <string name="prodcut_type_parent_name">父分类</string>
+
+        <string name="sales_new_bpartnerMsg">单号已存在，不能修改往来单位</string>
+        <string name="linked_order_number">关联单号</string>
+
+
+        <!-- after_sales_submit_activity.xml -->
+        <string name="asssa_title">保存成功</string>
+        <string name="asssa_create_order">继续新建</string>
+        <string name="asssa_print_receipt">打印小票</string>
+        <string name="asssa_send_short_message">发送短信：</string>
+        <string name="asssa_history_records">查看历史记录</string>
+        <string name="asssa_back_to_main">返回主界面</string>
+        <string name="asssa_save_as_default">保存为默认选择（可在业务设置中取消）</string>
+        <string name="asssa_error_null_sCreatingOrderActivityClassName">错误：\n\nsCreatingOrderActivityClassName为空。\n\n请联系来钱快客服：0571-28130038。</string>
+        <string name="asssa_error_null_asssa_error_null_itemArrayList">错误：\n\nasssa_error_null_itemArrayList为空。\n\n请联系来钱快客服：0571-28130038。</string>
+
+        <string name="asssa_setting">交易后的默认选择设置</string>
+        <string name="asssa_setting_sales">取消销售单保存后的默认选择</string>
+        <string name="asssa_setting_sales_return">取消销售退货单保存后的默认选择</string>
+        <string name="asssa_setting_purchase">取消采购单保存后的默认选择</string>
+        <string name="asssa_setting_purchase_return">取消采购退货单保存后的默认选择</string>
+        <string name="asssa_setting_cancel_default_success">取消默认选择 成功。</string>
+        <string name="asssa_setting_SALE_TRANSACTIONTYPE">100001</string>
+        <string name="asssa_setting_SALE_RETURN_TRANSACTIONTYPE">100015</string>
+        <string name="asssa_setting_PURCHASE_TRANSACTIONTYPE">100002</string>
+        <string name="asssa_setting_PURCHASE_RETURN_TRANSACTIONTYPE">100016</string>
+
+        <string name="test_string">零一二三四五六七八九</string>
+
+
+
+
+</resources>
